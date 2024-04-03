@@ -1,0 +1,22 @@
+.header {
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img_logo {
+  max-height: 3.5em;
+}
+
+.ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.li {
+  margin: 0 1em;
+}
