@@ -1,0 +1,6 @@
+.inf {
+  margin: 2em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

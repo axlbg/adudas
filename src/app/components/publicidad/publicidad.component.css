@@ -1,0 +1,11 @@
+.div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(245, 245, 245);
+  margin: 6.25em auto 0 0;
+
+  height: 4.3em;
+}
