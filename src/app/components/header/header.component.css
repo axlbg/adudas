@@ -13,7 +13,7 @@
 
 .sup {
   width: 100%;
-  background-color: beige;
+  background-color: rgb(245, 245, 245);
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
