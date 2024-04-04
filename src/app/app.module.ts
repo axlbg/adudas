@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { PublicidadComponent } from './components/publicidad/publicidad.component';
 import { ProximamenteComponent } from './components/proximamente/proximamente.component';
 import { AirmaxComponent } from './components/airmax/airmax.component';
+import { EntrenamientoComponent } from './components/entrenamiento/entrenamiento.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AirmaxComponent } from './components/airmax/airmax.component';
     HeaderComponent,
     PublicidadComponent,
     ProximamenteComponent,
-    AirmaxComponent
+    AirmaxComponent,
+    EntrenamientoComponent
   ],
   imports: [
     BrowserModule,
