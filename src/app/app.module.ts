@@ -8,6 +8,7 @@ import { PublicidadComponent } from './components/publicidad/publicidad.componen
 import { ProximamenteComponent } from './components/proximamente/proximamente.component';
 import { AirmaxComponent } from './components/airmax/airmax.component';
 import { EntrenamientoComponent } from './components/entrenamiento/entrenamiento.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EntrenamientoComponent } from './components/entrenamiento/entrenamiento
     PublicidadComponent,
     ProximamenteComponent,
     AirmaxComponent,
-    EntrenamientoComponent
+    EntrenamientoComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
