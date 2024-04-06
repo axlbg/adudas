@@ -11,7 +11,35 @@
 }
 
 .h1 {
-  padding-top: 0.3em;
+  padding: 0.2em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 3.5em;
+}
+
+.botonera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  overflow: visible;
+}
+
+.boton {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  font-weight: 600;
+  border-width: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  padding: 10px 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  border-width: 0;
+}
+
+.boton:hover {
+  background-color: rgb(50, 50, 50);
 }
