@@ -45,3 +45,28 @@
 .li {
   margin: 0 1em;
 }
+
+.a {
+  font-size: 1.1em;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.nav::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  margin-top: 10px;
+  background-color: black;
+  display: block;
+}
+
+.nav:hover::after {
+  width: 100%;
+}
+
+.a4 {
+  font-size: 0.8em;
+}
