@@ -4,11 +4,11 @@
     <div class="superior">
       <h2 class="h2">Lo nuevo</h2>
       <div class="botones">
-        <button class="arrow" id="izq"><</button>
-        <button class="arrow" id="der">></button>
+        <button class="arrow" id="izq" (click)="clickIzq()"><</button>
+        <button class="arrow" id="der" (click)="clickDer()">></button>
       </div>
     </div>
-    <ul class="carousel">
+    <ul class="carousel" id="carro">
       <li class="item">
         <div class="img">
           <img
