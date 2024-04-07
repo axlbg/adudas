@@ -13,93 +13,13 @@
     (mousedown)="dragStart($event)"
     (mousemove)="dragging($event)"
   >
-    <li class="item">
+    <li class="item" *ngFor="let p of productos">
       <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/2.jpg"
-          alt="img"
-          draggable="false"
-        />
+        <img src="{{ p.imagen }}" alt="img" draggable="false" />
       </div>
-      <h2>Alf</h2>
-      <span>Alien Life Form</span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/3.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Del Potro</h2>
-      <span>Extenista </span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/4.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Nicolino Locche</h2>
-      <span>Boxeador </span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/5.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Manu Ginóbili</h2>
-      <span>Jugador de basquet</span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/6.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Diego Maradona</h2>
-      <span>El diegote</span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/7.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Lionel Messi</h2>
-      <span>GOAT</span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/8.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Guido Kaczka</h2>
-      <span>Actor y conductor</span>
-    </li>
-    <li class="item">
-      <div class="img">
-        <img
-          src="../../../assets/productos/imagenes/9.jpg"
-          alt="img"
-          draggable="false"
-        />
-      </div>
-      <h2>Juan Manuel Fangio</h2>
-      <span>Piloto</span>
+      <h3>{{ p.nombre }}</h3>
+      <h3 class="descripcion">{{ p.descripcion }}</h3>
+      <h3 class="precio">$ {{ p.precio }}</h3>
     </li>
   </ul>
 </div>

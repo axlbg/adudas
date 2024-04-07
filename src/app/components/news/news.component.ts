@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import jsonProductos from '../../../assets/productos.json';
 
 @Component({
   selector: 'app-news',
@@ -9,6 +10,13 @@ export class NewsComponent {
   isDragging = false;
   startX = 0;
   startScrollLeft = 0;
+  productos: any = new Array();
+
+  constructor() {
+    jsonProductos.forEach((p) => {
+      if (p.nuevo) this.productos.push(p);
+    });
+  }
 
   dragStop = () => {
     this.isDragging = false;
