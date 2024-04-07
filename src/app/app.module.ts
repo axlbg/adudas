@@ -9,6 +9,7 @@ import { ProximamenteComponent } from './components/proximamente/proximamente.co
 import { AirmaxComponent } from './components/airmax/airmax.component';
 import { EntrenamientoComponent } from './components/entrenamiento/entrenamiento.component';
 import { NewsComponent } from './components/news/news.component';
+import { DoblecoleccionComponent } from './components/doblecoleccion/doblecoleccion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NewsComponent } from './components/news/news.component';
     ProximamenteComponent,
     AirmaxComponent,
     EntrenamientoComponent,
-    NewsComponent
+    NewsComponent,
+    DoblecoleccionComponent
   ],
   imports: [
     BrowserModule,

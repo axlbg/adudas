@@ -3,8 +3,8 @@
   <div class="superior">
     <h2 class="h2">Lo nuevo</h2>
     <div class="botones">
-      <button class="arrow" id="izq" (click)="clickIzq()"><</button>
-      <button class="arrow" id="der" (click)="clickDer()">></button>
+      <button class="button-23" id="izq" (click)="clickIzq()"><</button>
+      <button class="button-23" id="der" (click)="clickDer()">></button>
     </div>
   </div>
   <ul
@@ -15,7 +15,9 @@
   >
     <li class="item" *ngFor="let p of productos">
       <div class="img">
-        <img src="{{ p.imagen }}" alt="img" draggable="false" />
+        <a href="" class="a"
+          ><img src="{{ p.imagen }}" alt="img" draggable="false"
+        /></a>
       </div>
       <h3 class="h3 nuevo">Lo nuevo</h3>
       <h3 class="h3">{{ p.nombre }}</h3>
