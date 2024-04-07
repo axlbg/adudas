@@ -23,12 +23,12 @@ export class NewsComponent {
   }
 
   dragStart = (e: MouseEvent) => {
-    let carousel = document.getElementById('carro');
+    let carro = document.getElementById('carro');
     this.isDragging = true;
-    carousel!.classList.add('dragging');
+    carro!.classList.add('dragging');
 
     this.startX = e.pageX;
-    this.startScrollLeft = carousel!.scrollLeft;
+    this.startScrollLeft = carro!.scrollLeft;
   };
 
   dragging = (e: MouseEvent) => {
