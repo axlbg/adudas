@@ -12,18 +12,18 @@ export class DeportesComponent {
 
   dragStop = () => {
     this.isDragging = false;
-    document.getElementById('carro')!.classList.remove('dragging');
+    document.getElementById('carrodeportes')!.classList.remove('dragging');
   };
 
   clickIzq() {
-    document.getElementById('carro')!.scrollLeft -= 300;
+    document.getElementById('carrodeportes')!.scrollLeft -= 500;
   }
   clickDer() {
-    document.getElementById('carro')!.scrollLeft += 300;
+    document.getElementById('carrodeportes')!.scrollLeft += 500;
   }
 
   dragStart = (e: MouseEvent) => {
-    let carro = document.getElementById('carro');
+    let carro = document.getElementById('carrodeportes');
     this.isDragging = true;
     carro!.classList.add('dragging');
 
@@ -33,7 +33,7 @@ export class DeportesComponent {
 
   dragging = (e: MouseEvent) => {
     if (!this.isDragging) return;
-    document.getElementById('carro')!.scrollLeft =
+    document.getElementById('carrodeportes')!.scrollLeft =
       this.startScrollLeft - (e.pageX - this.startX);
   };
 }
