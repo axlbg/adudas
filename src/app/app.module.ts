@@ -10,6 +10,7 @@ import { AirmaxComponent } from './components/airmax/airmax.component';
 import { EntrenamientoComponent } from './components/entrenamiento/entrenamiento.component';
 import { NewsComponent } from './components/news/news.component';
 import { DoblecoleccionComponent } from './components/doblecoleccion/doblecoleccion.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DoblecoleccionComponent } from './components/doblecoleccion/doblecolecc
     AirmaxComponent,
     EntrenamientoComponent,
     NewsComponent,
-    DoblecoleccionComponent
+    DoblecoleccionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
