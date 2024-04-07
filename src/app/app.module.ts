@@ -11,6 +11,7 @@ import { EntrenamientoComponent } from './components/entrenamiento/entrenamiento
 import { NewsComponent } from './components/news/news.component';
 import { DoblecoleccionComponent } from './components/doblecoleccion/doblecoleccion.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { OportunidadesComponent } from './components/oportunidades/oportunidades.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     EntrenamientoComponent,
     NewsComponent,
     DoblecoleccionComponent,
-    FooterComponent
+    FooterComponent,
+    OportunidadesComponent
   ],
   imports: [
     BrowserModule,
