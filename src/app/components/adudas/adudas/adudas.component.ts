@@ -20,6 +20,15 @@ export class AdudasComponent {
   generos: string[] = ['Hombre', 'Mujer', 'Niño', 'Unisex'];
   deportes: string[] = ['Futbol', 'Basquet', 'Skate', 'Yoga', 'Running'];
 
+  /* filtros: any[] = [
+    {
+      descuentos: '40% OFF',
+      tipo: 'buzo',
+      generos: 'hombre',
+      deportes: 'skate',
+      novedad: false,
+    },
+  ];*/
   filtros: string[] = [];
 
   clickItem(index: number) {
