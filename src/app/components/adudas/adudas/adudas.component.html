@@ -7,6 +7,13 @@
           <h3 class="h3">Filtros</h3>
           <h3 class="h3 clickeable">Limpiar Filtros</h3>
         </div>
+        <div class="gap"></div>
+        <div class="opciones" *ngIf="filtros">
+          <div class="opc" *ngFor="let f of filtros" (click)="checkButton(f)">
+            <button class="button-38 button-checked">✓</button>
+            <h3 class="h3 hopciones">{{ f }}</h3>
+          </div>
+        </div>
       </div>
       <div class="div division">
         <div class="item" (click)="clickItem(1)">
@@ -14,17 +21,18 @@
           <div class="arrow" [ngClass]="abierto[1] ? 'up' : 'down'"></div>
         </div>
         <div class="opciones" *ngIf="abierto[1]">
-          <div class="opc">
-            <button class="button-38">✓</button>
-            <h3 class="h3 hopciones">40% OFF</h3>
-          </div>
-          <div class="opc">
-            <button class="button-38">✓</button>
-            <h3 class="h3 hopciones">30% OFF</h3>
-          </div>
-          <div class="opc">
-            <button class="button-38">✓</button>
-            <h3 class="h3 hopciones">20% OFF</h3>
+          <div
+            class="opc"
+            *ngFor="let d of descuentos"
+            (click)="checkButton(d)"
+          >
+            <button
+              class="button-38"
+              [ngClass]="filtros.includes(d) ? 'button-checked' : ''"
+            >
+              ✓
+            </button>
+            <h3 class="h3 hopciones">{{ d }}</h3>
           </div>
         </div>
       </div>
@@ -34,8 +42,17 @@
           <div class="arrow" [ngClass]="abierto[2] ? 'up' : 'down'"></div>
         </div>
         <div class="opciones" *ngIf="abierto[2]">
-          <div class="opc" *ngFor="let c of categorias">
-            <button class="button-38">✓</button>
+          <div
+            class="opc"
+            *ngFor="let c of categorias"
+            (click)="checkButton(c)"
+          >
+            <button
+              class="button-38"
+              [ngClass]="filtros.includes(c) ? 'button-checked' : ''"
+            >
+              ✓
+            </button>
             <h3 class="h3 hopciones">{{ c }}</h3>
           </div>
         </div>
@@ -46,8 +63,13 @@
           <div class="arrow" [ngClass]="abierto[3] ? 'up' : 'down'"></div>
         </div>
         <div class="opciones" *ngIf="abierto[3]">
-          <div class="opc" *ngFor="let g of generos">
-            <button class="button-38">✓</button>
+          <div class="opc" *ngFor="let g of generos" (click)="checkButton(g)">
+            <button
+              class="button-38"
+              [ngClass]="filtros.includes(g) ? 'button-checked' : ''"
+            >
+              ✓
+            </button>
             <h3 class="h3 hopciones">{{ g }}</h3>
           </div>
         </div>
@@ -58,8 +80,13 @@
           <div class="arrow" [ngClass]="abierto[4] ? 'up' : 'down'"></div>
         </div>
         <div class="opciones" *ngIf="abierto[4]">
-          <div class="opc" *ngFor="let d of deportes">
-            <button class="button-38">✓</button>
+          <div class="opc" *ngFor="let d of deportes" (click)="checkButton(d)">
+            <button
+              class="button-38"
+              [ngClass]="filtros.includes(d) ? 'button-checked' : ''"
+            >
+              ✓
+            </button>
             <h3 class="h3 hopciones">{{ d }}</h3>
           </div>
         </div>
@@ -70,8 +97,13 @@
           <div class="arrow" [ngClass]="abierto[5] ? 'up' : 'down'"></div>
         </div>
         <div class="opciones" *ngIf="abierto[5]">
-          <div class="opc">
-            <button class="button-38">✓</button>
+          <div class="opc" (click)="checkButton('Novedades')">
+            <button
+              class="button-38"
+              [ngClass]="filtros.includes('Novedades') ? 'button-checked' : ''"
+            >
+              ✓
+            </button>
             <h3 class="h3 hopciones">Novedades</h3>
           </div>
         </div>
