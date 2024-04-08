@@ -55,28 +55,6 @@
   white-space: nowrap;
 }
 
-.item .img img {
-  width: 350;
-  height: 350;
-  object-fit: cover;
-}
-
-.h3 {
-  padding-top: 0.3em;
-}
-
-.item .nuevo {
-  color: orange;
-}
-
-.item .descripcion {
-  color: grey;
-}
-
-.item .precio {
-  font-weight: bold;
-}
-
 @media screen and (max-width: 920px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 3));

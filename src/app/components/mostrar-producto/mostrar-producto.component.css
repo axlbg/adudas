@@ -1,0 +1,30 @@
+.img {
+  width: 1350;
+  height: 1350;
+  object-fit: cover;
+}
+.h3 {
+  padding-top: 0.1em;
+}
+.nuevo {
+  color: orange;
+}
+.descripcion {
+  color: grey;
+}
+.precio {
+  font-weight: bold;
+}
+.tachado {
+  color: gray;
+  text-decoration: line-through;
+}
+.descuento {
+  color: green;
+}
+
+.boxprecio {
+  display: flex;
+  flex-flow: row;
+  gap: 0.5em;
+}

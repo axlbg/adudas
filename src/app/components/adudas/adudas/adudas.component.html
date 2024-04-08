@@ -11,31 +11,56 @@
       <div class="div division">
         <div class="item">
           <h3 class="h3">Oportunidades</h3>
-          <div class="despliegue">^</div>
+          <div
+            class="arrow"
+            [ngClass]="abierto[1] ? 'up' : 'down'"
+            id="arrow1"
+            (click)="clickArrow(1)"
+          ></div>
         </div>
       </div>
       <div class="div division">
         <div class="item">
           <h3 class="h3">Categorías</h3>
-          <div class="despliegue">^</div>
+          <div
+            class="arrow"
+            [ngClass]="abierto[2] ? 'up' : 'down'"
+            id="arrow2"
+            (click)="clickArrow(2)"
+          ></div>
         </div>
       </div>
       <div class="div division">
         <div class="item">
           <h3 class="h3">Géneros</h3>
-          <div class="despliegue">^</div>
+          <div
+            class="arrow"
+            [ngClass]="abierto[3] ? 'up' : 'down'"
+            id="arrow3"
+            (click)="clickArrow(3)"
+          ></div>
         </div>
       </div>
       <div class="div division">
         <div class="item">
           <h3 class="h3">Deportes</h3>
-          <div class="despliegue">^</div>
+          <div
+            class="arrow"
+            [ngClass]="abierto[4] ? 'up' : 'down'"
+            id="arrow4"
+            (click)="clickArrow(4)"
+          ></div>
         </div>
       </div>
       <div class="div division">
         <div class="item">
           <h3 class="h3">Recientemente agregados</h3>
-          <div class="despliegue">^</div>
+          <div
+            class="arrow"
+            [ngClass]="abierto[5] ? 'up' : 'down'"
+            id="arrow5"
+            (click)="clickArrow(5)"
+          ></div>
         </div>
       </div>
     </div>

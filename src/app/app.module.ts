@@ -16,6 +16,7 @@ import { DeportesComponent } from './components/deportes/deportes.component';
 import { AdudasComponent } from './components/adudas/adudas/adudas.component';
 import { MainComponent } from './components/main/main.component';
 import { GridproductosComponent } from './components/adudas/gridproductos/gridproductos.component';
+import { MostrarProductoComponent } from './components/mostrar-producto/mostrar-producto.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { GridproductosComponent } from './components/adudas/gridproductos/gridpr
     DeportesComponent,
     AdudasComponent,
     MainComponent,
-    GridproductosComponent
+    GridproductosComponent,
+    MostrarProductoComponent
   ],
   imports: [
     BrowserModule,
