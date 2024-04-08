@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.item .img {
+  width: 1350;
+  height: 1350;
+  object-fit: cover;
+}
+
+.h3 {
+  padding-top: 0.1em;
+}
+
+.item .nuevo {
+  color: orange;
+}
+
+.item .descripcion {
+  color: grey;
+}
+
+.item .precio {
+  font-weight: bold;
+}
+
+.item .tachado {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.item .descuento {
+  color: green;
+}
+
+.boxprecio {
+  display: flex;
+  flex-flow: row;
+  gap: 0.5em;
+}

@@ -15,6 +15,7 @@ import { OportunidadesComponent } from './components/oportunidades/oportunidades
 import { DeportesComponent } from './components/deportes/deportes.component';
 import { AdudasComponent } from './components/adudas/adudas/adudas.component';
 import { MainComponent } from './components/main/main.component';
+import { GridproductosComponent } from './components/adudas/gridproductos/gridproductos.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MainComponent } from './components/main/main.component';
     OportunidadesComponent,
     DeportesComponent,
     AdudasComponent,
-    MainComponent
+    MainComponent,
+    GridproductosComponent
   ],
   imports: [
     BrowserModule,

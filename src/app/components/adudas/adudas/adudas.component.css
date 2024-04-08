@@ -4,13 +4,17 @@
 
 .titulo {
   height: 120px;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contenedor {
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .lateral {
@@ -18,7 +22,7 @@
   height: 2000px;
 }
 
-.sup {
+.lateral .sup {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -26,12 +30,12 @@
   padding: 0 0.5em;
 }
 
-.sup .a {
+.sup .clickeable {
+  font-weight: 100;
   text-decoration: underline;
 }
-
-.sup .a .h3 {
-  font-weight: 100;
+.sup .clickeable:hover {
+  cursor: pointer;
 }
 
 .division::after {
@@ -44,7 +48,7 @@
   display: block;
 }
 
-.item {
+.division .item {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -52,8 +56,11 @@
   padding: 1em 0.5em;
 }
 
+.division .item .despliegue:hover {
+  cursor: pointer;
+}
+
 .productosbox {
   width: 100%;
-  height: 2000px;
-  background-color: aquamarine;
+  padding: 1em;
 }
