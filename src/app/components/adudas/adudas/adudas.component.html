@@ -9,58 +9,71 @@
         </div>
       </div>
       <div class="div division">
-        <div class="item">
+        <div class="item" (click)="clickItem(1)">
           <h3 class="h3">Oportunidades</h3>
-          <div
-            class="arrow"
-            [ngClass]="abierto[1] ? 'up' : 'down'"
-            id="arrow1"
-            (click)="clickArrow(1)"
-          ></div>
+          <div class="arrow" [ngClass]="abierto[1] ? 'up' : 'down'"></div>
+        </div>
+        <div class="opciones">
+          <div class="opc">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">40% OFF</h3>
+          </div>
+          <div class="opc">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">30% OFF</h3>
+          </div>
+          <div class="opc">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">20% OFF</h3>
+          </div>
         </div>
       </div>
       <div class="div division">
-        <div class="item">
+        <div class="item" (click)="clickItem(2)">
           <h3 class="h3">Categorías</h3>
-          <div
-            class="arrow"
-            [ngClass]="abierto[2] ? 'up' : 'down'"
-            id="arrow2"
-            (click)="clickArrow(2)"
-          ></div>
+          <div class="arrow" [ngClass]="abierto[2] ? 'up' : 'down'"></div>
+        </div>
+        <div class="opciones">
+          <div class="opc" *ngFor="let c of categorias">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">{{ c }}</h3>
+          </div>
         </div>
       </div>
       <div class="div division">
-        <div class="item">
-          <h3 class="h3">Géneros</h3>
-          <div
-            class="arrow"
-            [ngClass]="abierto[3] ? 'up' : 'down'"
-            id="arrow3"
-            (click)="clickArrow(3)"
-          ></div>
+        <div class="item" (click)="clickItem(3)">
+          <h3 class="h3">Género</h3>
+          <div class="arrow" [ngClass]="abierto[3] ? 'up' : 'down'"></div>
+        </div>
+        <div class="opciones">
+          <div class="opc" *ngFor="let g of generos">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">{{ g }}</h3>
+          </div>
         </div>
       </div>
       <div class="div division">
-        <div class="item">
+        <div class="item" (click)="clickItem(4)">
           <h3 class="h3">Deportes</h3>
-          <div
-            class="arrow"
-            [ngClass]="abierto[4] ? 'up' : 'down'"
-            id="arrow4"
-            (click)="clickArrow(4)"
-          ></div>
+          <div class="arrow" [ngClass]="abierto[4] ? 'up' : 'down'"></div>
+        </div>
+        <div class="opciones">
+          <div class="opc" *ngFor="let d of deportes">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">{{ d }}</h3>
+          </div>
         </div>
       </div>
       <div class="div division">
-        <div class="item">
+        <div class="item" (click)="clickItem(5)">
           <h3 class="h3">Recientemente agregados</h3>
-          <div
-            class="arrow"
-            [ngClass]="abierto[5] ? 'up' : 'down'"
-            id="arrow5"
-            (click)="clickArrow(5)"
-          ></div>
+          <div class="arrow" [ngClass]="abierto[5] ? 'up' : 'down'"></div>
+        </div>
+        <div class="opciones">
+          <div class="opc">
+            <button class="button-38">✓</button>
+            <h3 class="h3 hopciones">Novedades</h3>
+          </div>
         </div>
       </div>
     </div>

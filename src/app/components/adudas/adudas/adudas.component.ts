@@ -7,8 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AdudasComponent {
   abierto: boolean[] = [];
+  categorias: string[] = [
+    'Buzo',
+    'Calzado',
+    'Camiseta',
+    'Campera',
+    'Gorra',
+    'Guante',
+    'Mochila',
+  ];
+  generos: string[] = ['Hombre', 'Mujer', 'Niño', 'Unisex'];
+  deportes: string[] = ['Futbol', 'Basquet', 'Skate', 'Yoga', 'Running'];
 
-  clickArrow(index: number) {
+  clickItem(index: number) {
     this.abierto[index] = !this.abierto[index];
   }
 }
