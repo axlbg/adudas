@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import jsonProductos from '../../../../assets/productos.json';
 
 @Component({
@@ -7,13 +7,11 @@ import jsonProductos from '../../../../assets/productos.json';
   styleUrls: ['./gridproductos.component.css'],
 })
 export class GridproductosComponent {
+  @Input() public filtros: string[] = [];
+
   productos: any = new Array();
-  filtros: string[] = ['buzo', 'guante'];
 
   constructor() {
-    jsonProductos.forEach((p) => {
-      this.productos.push(p);
-    });
     this.productos = this.obtenerFiltrados();
   }
 
@@ -23,13 +21,20 @@ export class GridproductosComponent {
 
   obtenerFiltrados() {
     let filtrados: any[] = [];
-    this.productos.forEach((p: any) => {
-      this.filtros.forEach((f: any) => {
-        if (p.tipo == f) {
-          filtrados.push(p);
-        }
+
+    if (this.filtros.length > 0) {
+      jsonProductos.forEach((p: any) => {
+        this.filtros.forEach((f: any) => {
+          if (p.tipo == f || p.genero == f || p.deporte == f) {
+            filtrados.push(p);
+          } else if (f == 'Novedades' && p.nuevo) {
+            filtrados.push(p);
+          } else if (f[2] == '%' && f.substr(0, 2) == p.descuento) {
+            filtrados.push(p);
+          }
+        });
       });
-    });
+    } else filtrados = jsonProductos;
 
     return filtrados;
   }
