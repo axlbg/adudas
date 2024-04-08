@@ -1,7 +1,11 @@
 .img {
-  width: 1350;
-  height: 1350;
-  object-fit: cover;
+  width: 420px;
+  height: 420px;
+  object-fit: contain;
+}
+
+.img1 {
+  height: 400px;
 }
 .h3 {
   padding-top: 0.1em;
