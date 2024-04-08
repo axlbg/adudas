@@ -3,8 +3,23 @@
 }
 
 .titulo {
-  background-color: red;
-  height: 150px;
+  height: 120px;
+}
+
+.sup {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5em;
+}
+
+.sup .a {
+  text-decoration: underline;
+}
+
+.sup .a .h3 {
+  font-weight: 100;
 }
 
 .contenedor {
@@ -17,7 +32,6 @@
 .filtro {
   width: 288px;
   height: 2000px;
-  background-color: bisque;
 }
 
 .productos {
