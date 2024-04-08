@@ -13,6 +13,8 @@ import { DoblecoleccionComponent } from './components/doblecoleccion/doblecolecc
 import { FooterComponent } from './components/footer/footer.component';
 import { OportunidadesComponent } from './components/oportunidades/oportunidades.component';
 import { DeportesComponent } from './components/deportes/deportes.component';
+import { AdudasComponent } from './components/adudas/adudas/adudas.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { DeportesComponent } from './components/deportes/deportes.component';
     DoblecoleccionComponent,
     FooterComponent,
     OportunidadesComponent,
-    DeportesComponent
+    DeportesComponent,
+    AdudasComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
