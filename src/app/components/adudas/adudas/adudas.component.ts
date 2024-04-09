@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import jsonProductos from '../../../../assets/productos.json';
 
 @Component({
   selector: 'app-adudas',
@@ -20,7 +21,12 @@ export class AdudasComponent {
   generos: string[] = ['Hombre', 'Mujer', 'Niño', 'Unisex'];
   deportes: string[] = ['Futbol', 'Basquet', 'Skate', 'Yoga', 'Running'];
 
-  filtros: string[] = ['Hombre', 'Buzo'];
+  filtros: string[] = [];
+  productosFiltrados: any[] = [];
+
+  constructor() {
+    this.productosFiltrados = this.obtenerFiltrados();
+  }
 
   clickItem(index: number) {
     this.abierto[index] = !this.abierto[index];
@@ -29,5 +35,43 @@ export class AdudasComponent {
     if (this.filtros.includes(text))
       this.filtros.splice(this.filtros.indexOf(text), 1);
     else this.filtros.push(text);
+    this.productosFiltrados = this.obtenerFiltrados();
+  }
+
+  obtenerFiltrados() {
+    let filtrados: any[] = [];
+    let fToLowerCase;
+    let filtrosLength = this.filtros.length;
+    let contadorDeOfertas = 0;
+    let contadorDeTipo = 0;
+    let contadorDeGenero = 0;
+    let contadorDeCualidades = 0;
+
+    if (filtrosLength > 0) {
+      jsonProductos.forEach((p: any) => {
+        this.filtros.forEach((f: any) => {
+          if (f[2] == '%') {
+            if (f.substr(0, 2) == p.descuento) contadorDeCualidades++;
+          } else {
+            fToLowerCase = f.toLowerCase();
+            if (
+              p.tipo == fToLowerCase ||
+              p.genero == fToLowerCase ||
+              p.deporte == fToLowerCase
+            ) {
+              contadorDeCualidades++;
+            } else if (f == 'Novedades' && p.nuevo) {
+              contadorDeCualidades++;
+            }
+          }
+        });
+        if (contadorDeCualidades == filtrosLength) {
+          filtrados.push(p);
+        }
+        contadorDeCualidades = 0;
+      });
+    } else filtrados = jsonProductos;
+
+    return filtrados;
   }
 }
