@@ -17,6 +17,7 @@ import { AdudasComponent } from './components/adudas/adudas/adudas.component';
 import { MainComponent } from './components/main/main.component';
 import { GridproductosComponent } from './components/adudas/gridproductos/gridproductos.component';
 import { MostrarProductoComponent } from './components/mostrar-producto/mostrar-producto.component';
+import { VerComponent } from './components/pages/ver/ver.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MostrarProductoComponent } from './components/mostrar-producto/mostrar-
     AdudasComponent,
     MainComponent,
     GridproductosComponent,
-    MostrarProductoComponent
+    MostrarProductoComponent,
+    VerComponent
   ],
   imports: [
     BrowserModule,

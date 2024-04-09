@@ -1,14 +1,13 @@
-import { Component } from '@angular/core';
-import jsonProductos from '../../../../assets/productos.json';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { filter } from 'rxjs';
+import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
   selector: 'app-adudas',
   templateUrl: './adudas.component.html',
   styleUrls: ['./adudas.component.css'],
 })
-export class AdudasComponent {
+export class AdudasComponent implements OnInit {
   abierto: boolean[] = [false, true, true, true, true];
   descuentos: string[] = ['40% OFF', '30% OFF', '20% OFF'];
   categorias: string[] = [
@@ -26,7 +25,12 @@ export class AdudasComponent {
   filtros: string[] = [];
   productosFiltrados: any[] = [];
 
-  constructor(private route: ActivatedRoute) {
+  constructor(
+    private route: ActivatedRoute,
+    private productos: ProductosService
+  ) {}
+
+  ngOnInit(): void {
     this.route.params.subscribe((params) => {
       if (params['filter'] == 'oportunidades') {
         this.filtros.push('40% OFF');
@@ -65,9 +69,10 @@ export class AdudasComponent {
     let fToLowerCase;
     let filtrosLength = this.filtros.length;
     let contadorDeCualidades = 0;
+    let todosLosProductos = this.productos.traerProductos();
 
     if (filtrosLength > 0) {
-      jsonProductos.forEach((p: any) => {
+      todosLosProductos.forEach((p: any) => {
         this.filtros.forEach((f: any) => {
           if (f[2] == '%') {
             if (f.substr(0, 2) == p.descuento) contadorDeCualidades++;
@@ -89,7 +94,7 @@ export class AdudasComponent {
         }
         contadorDeCualidades = 0;
       });
-    } else filtrados = jsonProductos;
+    } else filtrados = todosLosProductos;
 
     return filtrados;
   }

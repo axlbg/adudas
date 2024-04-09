@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdudasComponent } from './components/adudas/adudas/adudas.component';
 import { MainComponent } from './components/main/main.component';
+import { VerComponent } from './components/pages/ver/ver.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'adudas', component: AdudasComponent },
   { path: 'adudas/:filter', component: AdudasComponent },
   { path: 'adudas/:filter/:filter2', component: AdudasComponent },
+  { path: 'ver/:id', component: VerComponent },
   { path: '**', component: MainComponent },
 ];
 
