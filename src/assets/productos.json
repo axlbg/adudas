@@ -13,6 +13,7 @@
     ],
     "tipo": "guante",
     "deporte": "skate",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -32,6 +33,7 @@
     ],
     "tipo": "calzado",
     "deporte": "running",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -48,6 +50,7 @@
     ],
     "tipo": "mochila",
     "deporte": "skate",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -64,6 +67,7 @@
     ],
     "tipo": "campera",
     "deporte": "yoga",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -80,6 +84,7 @@
     ],
     "tipo": "buzo",
     "deporte": "skate",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -96,6 +101,7 @@
     ],
     "tipo": "gorra",
     "deporte": "futbol",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -112,6 +118,7 @@
     ],
     "tipo": "buzo",
     "deporte": "basquet",
+    "coleccion": "boca",
     "nuevo": false
   },
   {
@@ -128,6 +135,7 @@
     ],
     "tipo": "calzado",
     "deporte": "yoga",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -144,6 +152,7 @@
     ],
     "tipo": "guante",
     "deporte": "futbol",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -160,6 +169,7 @@
     ],
     "tipo": "gorra",
     "deporte": "skate",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -176,6 +186,7 @@
     ],
     "tipo": "buzo",
     "deporte": "skate",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -192,6 +203,7 @@
     ],
     "tipo": "camiseta",
     "deporte": "futbol",
+    "coleccion": "boca",
     "nuevo": false
   },
   {
@@ -208,6 +220,7 @@
     ],
     "tipo": "gorra",
     "deporte": "basquet",
+    "coleccion": "",
     "nuevo": true
   },
   {
@@ -224,6 +237,7 @@
     ],
     "tipo": "guante",
     "deporte": "running",
+    "coleccion": "",
     "nuevo": true
   },
   {
@@ -240,6 +254,7 @@
     ],
     "tipo": "guante",
     "deporte": "running",
+    "coleccion": "",
     "nuevo": true
   },
   {
@@ -256,6 +271,7 @@
     ],
     "tipo": "mochila",
     "deporte": "futbol",
+    "coleccion": "",
     "nuevo": true
   },
   {
@@ -272,6 +288,7 @@
     ],
     "tipo": "camiseta",
     "deporte": "futbol",
+    "coleccion": "boca",
     "nuevo": true
   },
   {
@@ -288,6 +305,7 @@
     ],
     "tipo": "campera",
     "deporte": "running",
+    "coleccion": "",
     "nuevo": true
   },
   {
@@ -304,6 +322,7 @@
     ],
     "tipo": "buzo",
     "deporte": "basquet",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -320,6 +339,7 @@
     ],
     "tipo": "buzo",
     "deporte": "yoga",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -336,6 +356,7 @@
     ],
     "tipo": "camiseta",
     "deporte": "futbol",
+    "coleccion": "",
     "nuevo": true
   },
   {
@@ -352,6 +373,7 @@
     ],
     "tipo": "buzo",
     "deporte": "futbol",
+    "coleccion": "boca",
     "nuevo": true
   },
   {
@@ -368,6 +390,7 @@
     ],
     "tipo": "mochila",
     "deporte": "futbol",
+    "coleccion": "boca",
     "nuevo": true
   },
   {
@@ -384,6 +407,7 @@
     ],
     "tipo": "campera",
     "deporte": "basquet",
+    "coleccion": "manu",
     "nuevo": true
   },
   {
@@ -400,6 +424,7 @@
     ],
     "tipo": "calzado",
     "deporte": "running",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -416,6 +441,7 @@
     ],
     "tipo": "gorra",
     "deporte": "yoga",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -432,6 +458,7 @@
     ],
     "tipo": "buzo",
     "deporte": "basquet",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -448,6 +475,7 @@
     ],
     "tipo": "buzo",
     "deporte": "running",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -464,6 +492,7 @@
     ],
     "tipo": "mochila",
     "deporte": "yoga",
+    "coleccion": "",
     "nuevo": false
   },
   {
@@ -480,6 +509,7 @@
     ],
     "tipo": "guante",
     "deporte": "basquet",
+    "coleccion": "",
     "nuevo": false
   }
 ]

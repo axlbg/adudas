@@ -27,6 +27,7 @@ export class VerComponent {
   ) {}
 
   ngOnInit() {
+    console.log('bueno');
     this.route.params.subscribe((params) => {
       if (this.productoService.traerPorId(params['id']) != undefined) {
         this.producto = this.productoService.traerPorId(params['id']);

@@ -1,0 +1,25 @@
+<div class="coleccion">
+  <div class="divimg">
+    <img src="{{ coleccion.header }}" alt="" class="img" />
+  </div>
+
+  <div class="wrapper" (mouseup)="dragStop()">
+    <div class="superior">
+      <h2 class="h2">Comprar</h2>
+      <div class="botones">
+        <button class="button-23" id="izq" (click)="clickIzq()"><</button>
+        <button class="button-23" id="der" (click)="clickDer()">></button>
+      </div>
+    </div>
+    <ul
+      class="carousel"
+      id="carro"
+      (mousedown)="dragStart($event)"
+      (mousemove)="dragging($event)"
+    >
+      <li class="item" *ngFor="let p of productosFiltradosPorColeccion">
+        <app-mostrar-producto [p]="p"></app-mostrar-producto>
+      </li>
+    </ul>
+  </div>
+</div>

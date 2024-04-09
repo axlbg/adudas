@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdudasComponent } from './components/adudas/adudas/adudas.component';
 import { MainComponent } from './components/main/main.component';
 import { VerComponent } from './components/pages/ver/ver.component';
+import { ColeccionComponent } from './components/pages/coleccion/coleccion.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -10,6 +11,7 @@ const routes: Routes = [
   { path: 'adudas/:filter', component: AdudasComponent },
   { path: 'adudas/:filter/:filter2', component: AdudasComponent },
   { path: 'ver/:id', component: VerComponent },
+  { path: 'coleccion/:nombre', component: ColeccionComponent },
   { path: '**', component: MainComponent },
 ];
 

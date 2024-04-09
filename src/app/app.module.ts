@@ -18,6 +18,7 @@ import { MainComponent } from './components/main/main.component';
 import { GridproductosComponent } from './components/adudas/gridproductos/gridproductos.component';
 import { MostrarProductoComponent } from './components/mostrar-producto/mostrar-producto.component';
 import { VerComponent } from './components/pages/ver/ver.component';
+import { ColeccionComponent } from './components/pages/coleccion/coleccion.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { VerComponent } from './components/pages/ver/ver.component';
     MainComponent,
     GridproductosComponent,
     MostrarProductoComponent,
-    VerComponent
+    VerComponent,
+    ColeccionComponent
   ],
   imports: [
     BrowserModule,
