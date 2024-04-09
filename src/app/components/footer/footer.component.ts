@@ -9,15 +9,30 @@ export class FooterComponent {
   columnas = [
     {
       titulo: 'AYUDA',
-      items: ['Envíos y entregas', 'Devoluciones', 'Cambios', 'Contactarse'],
+      items: [
+        { text: 'Envíos y entregas', href: '/adudas/novedades' },
+        { text: 'Devoluciones', href: '/adudas/hombres' },
+        { text: 'Cambios', href: '/adudas/niños' },
+        { text: 'Contactarse', href: '/adudas/oportunidades' },
+      ],
     },
     {
       titulo: 'ACERCA DE',
-      items: ['Noticias', 'Inversionistas', 'Terminos y condiciones'],
+      items: [
+        { text: 'Noticias', href: '/adudas/hombres' },
+        { text: 'Inversionistas', href: '/adudas/niños' },
+        { text: 'Terminos y condiciones', href: '/adudas/oportunidades' },
+      ],
     },
     {
       titulo: 'NOVEDADES',
-      items: ['Lo nuevo', 'Hombres', 'Mujeres', 'Niños', 'Promociones'],
+      items: [
+        { text: 'Lo nuevo', href: '/adudas/novedades' },
+        { text: 'Hombres', href: '/adudas/hombres' },
+        { text: 'Mujeres', href: '/adudas/mujeres' },
+        { text: 'Niños', href: '/adudas/niños' },
+        { text: 'Promociones', href: '/adudas/oportunidades' },
+      ],
     },
   ];
 }

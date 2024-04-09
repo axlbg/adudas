@@ -5,7 +5,9 @@
   <div class="columna" *ngFor="let c of columnas">
     <h4 class="h4 titulo">{{ c.titulo }}</h4>
     <div class="item" *ngFor="let i of c.items">
-      <h4 class="h4">{{ i }}</h4>
+      <a href="{{ i.href }}"
+        ><h4 class="h4">{{ i.text }}</h4></a
+      >
     </div>
   </div>
   <div class="columna">
@@ -72,6 +74,8 @@
 </div>
 <div class="floor">
   <div class="floorbox">
-    <h5 class="h5">Argentina © 2024 Creado y diseñado por @axlbg</h5>
+    <a href="https://github.com/axlbg" target="_blank">
+      <h5 class="h5">Argentina © 2024 Hecho por @axlbg</h5></a
+    >
   </div>
 </div>

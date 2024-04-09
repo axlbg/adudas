@@ -6,6 +6,9 @@ import { MainComponent } from './components/main/main.component';
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'adudas', component: AdudasComponent },
+  { path: 'adudas/:filter', component: AdudasComponent },
+  { path: 'adudas/:filter/:filter2', component: AdudasComponent },
+  { path: '**', component: MainComponent },
 ];
 
 @NgModule({

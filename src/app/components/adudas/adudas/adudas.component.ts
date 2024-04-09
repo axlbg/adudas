@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import jsonProductos from '../../../../assets/productos.json';
+import { ActivatedRoute } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-adudas',
@@ -24,7 +26,27 @@ export class AdudasComponent {
   filtros: string[] = [];
   productosFiltrados: any[] = [];
 
-  constructor() {
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe((params) => {
+      if (params['filter'] == 'oportunidades') {
+        this.filtros.push('40% OFF');
+      } else {
+        let paramCapitalizado = this.capitalizeFirstLetter(params['filter']);
+        if (
+          this.categorias.includes(paramCapitalizado) ||
+          this.generos.includes(paramCapitalizado) ||
+          this.deportes.includes(paramCapitalizado)
+        )
+          this.filtros.push(paramCapitalizado);
+        paramCapitalizado = this.capitalizeFirstLetter(params['filter2']);
+        if (
+          this.categorias.includes(paramCapitalizado) ||
+          this.generos.includes(paramCapitalizado) ||
+          this.deportes.includes(paramCapitalizado)
+        )
+          this.filtros.push(paramCapitalizado);
+      }
+    });
     this.productosFiltrados = this.obtenerFiltrados();
   }
 
@@ -75,5 +97,9 @@ export class AdudasComponent {
   limpiarFiltros() {
     this.filtros = [];
     this.productosFiltrados = this.obtenerFiltrados();
+  }
+
+  private capitalizeFirstLetter(str: string) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
   }
 }
