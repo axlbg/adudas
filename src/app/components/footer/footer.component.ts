@@ -10,18 +10,18 @@ export class FooterComponent {
     {
       titulo: 'AYUDA',
       items: [
-        { text: 'Envíos y entregas', href: '/adudas/novedades' },
-        { text: 'Devoluciones', href: '/adudas/hombres' },
-        { text: 'Cambios', href: '/adudas/niños' },
-        { text: 'Contactarse', href: '/adudas/oportunidades' },
+        { text: 'Envíos y entregas', href: '/' },
+        { text: 'Devoluciones', href: '/' },
+        { text: 'Cambios', href: '/' },
+        { text: 'Contactarse', href: '/' },
       ],
     },
     {
       titulo: 'ACERCA DE',
       items: [
-        { text: 'Noticias', href: '/adudas/hombres' },
-        { text: 'Inversionistas', href: '/adudas/niños' },
-        { text: 'Terminos y condiciones', href: '/adudas/oportunidades' },
+        { text: 'Noticias', href: '/' },
+        { text: 'Inversionistas', href: '/' },
+        { text: 'Terminos y condiciones', href: '/' },
       ],
     },
     {
@@ -30,7 +30,7 @@ export class FooterComponent {
         { text: 'Lo nuevo', href: '/adudas/novedades' },
         { text: 'Hombres', href: '/adudas/hombres' },
         { text: 'Mujeres', href: '/adudas/mujeres' },
-        { text: 'Niños', href: '/adudas/niños' },
+        { text: 'Niños', href: '/adudas/niño' },
         { text: 'Promociones', href: '/adudas/oportunidades' },
       ],
     },
