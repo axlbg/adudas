@@ -71,4 +71,9 @@ export class AdudasComponent {
 
     return filtrados;
   }
+
+  limpiarFiltros() {
+    this.filtros = [];
+    this.productosFiltrados = this.obtenerFiltrados();
+  }
 }
