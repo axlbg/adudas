@@ -8,7 +8,19 @@ import { ProductosService } from 'src/app/services/productos.service';
   styleUrls: ['./ver.component.css'],
 })
 export class VerComponent {
-  id_producto = undefined;
+  producto = {
+    id: 0,
+    nombre: '',
+    descripcion: '',
+    precio: 0,
+    genero: '',
+    descuento: '0',
+    imagen: '',
+    galeria: ['', ''],
+    tipo: '',
+    deporte: '',
+    nuevo: false,
+  };
   constructor(
     private route: ActivatedRoute,
     private productoService: ProductosService
@@ -16,7 +28,9 @@ export class VerComponent {
 
   ngOnInit() {
     this.route.params.subscribe((params) => {
-      this.id_producto = this.productoService.traerPorId(params['id']);
+      if (this.productoService.traerPorId(params['id']) != undefined) {
+        this.producto = this.productoService.traerPorId(params['id']);
+      }
     });
   }
 }

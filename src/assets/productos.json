@@ -25,6 +25,10 @@
     "imagen": "/assets/productos/imagenes/2.jpg",
     "galeria": [
       "/assets/productos/imagenes/2.jpg",
+      "/assets/productos/imagenes/2.jpg",
+      "/assets/productos/imagenes/2.jpg",
+      "/assets/productos/imagenes/2.jpg",
+      "/assets/productos/imagenes/2.jpg",
       "/assets/productos/imagenes/2.jpg"
     ],
     "tipo": "calzado",
@@ -279,6 +283,10 @@
     "genero": "unisex",
     "descuento": "30",
     "imagen": "/assets/productos/imagenes/18.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "campera",
     "deporte": "running",
     "nuevo": true
@@ -291,6 +299,10 @@
     "genero": "unisex",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/19.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "basquet",
     "nuevo": false
@@ -303,6 +315,10 @@
     "genero": "unisex",
     "descuento": "0",
     "imagen": "/assets/productos/imagenes/20.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "yoga",
     "nuevo": false
@@ -315,6 +331,10 @@
     "genero": "mujer",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/21.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "camiseta",
     "deporte": "futbol",
     "nuevo": true
@@ -327,6 +347,10 @@
     "genero": "unisex",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/22.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "futbol",
     "nuevo": true
@@ -339,6 +363,10 @@
     "genero": "mujer",
     "descuento": "30",
     "imagen": "/assets/productos/imagenes/23.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "mochila",
     "deporte": "futbol",
     "nuevo": true
@@ -351,6 +379,10 @@
     "genero": "mujer",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/24.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "campera",
     "deporte": "basquet",
     "nuevo": true
@@ -363,6 +395,10 @@
     "genero": "niño",
     "descuento": "30",
     "imagen": "/assets/productos/imagenes/25.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "calzado",
     "deporte": "running",
     "nuevo": false
@@ -375,6 +411,10 @@
     "genero": "mujer",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/26.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "gorra",
     "deporte": "yoga",
     "nuevo": false
@@ -387,6 +427,10 @@
     "genero": "unisex",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/27.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "basquet",
     "nuevo": false
@@ -399,6 +443,10 @@
     "genero": "hombre",
     "descuento": "40",
     "imagen": "/assets/productos/imagenes/28.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "running",
     "nuevo": false
@@ -411,6 +459,10 @@
     "genero": "niño",
     "descuento": "20",
     "imagen": "/assets/productos/imagenes/29.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "mochila",
     "deporte": "yoga",
     "nuevo": false
@@ -423,6 +475,10 @@
     "genero": "mujer",
     "descuento": "30",
     "imagen": "/assets/productos/imagenes/30.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/30.jpg",
+      "/assets/productos/imagenes/30.jpg"
+    ],
     "tipo": "guante",
     "deporte": "basquet",
     "nuevo": false

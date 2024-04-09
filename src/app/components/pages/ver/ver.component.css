@@ -1,0 +1,27 @@
+.ver {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  padding: 3.6em;
+  background-color: rgb(240, 240, 240);
+}
+
+.columna {
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.grid .item {
+  height: 650px;
+  width: 650px;
+}
+
+.grid .img {
+  height: 650px;
+  width: 650px;
+}

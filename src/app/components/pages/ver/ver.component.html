@@ -1,4 +1,10 @@
 <div class="ver">
-  <div class="columna"><div class="grid"></div></div>
-  <div class="columna"></div>
+  <div class="columna">
+    <div class="grid">
+      <li class="item" *ngFor="let i of producto.galeria">
+        <img src="{{ i }}" alt="" class="img" />
+      </li>
+    </div>
+  </div>
+  <div class="columna">COMPRAR</div>
 </div>

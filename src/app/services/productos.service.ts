@@ -16,7 +16,19 @@ export class ProductosService {
   }
 
   traerPorId(index: number) {
-    let productoReturn;
+    let productoReturn = {
+      id: 0,
+      nombre: '',
+      descripcion: '',
+      precio: 0,
+      genero: '',
+      descuento: '0',
+      imagen: '',
+      galeria: ['', ''],
+      tipo: '',
+      deporte: '',
+      nuevo: false,
+    };
     this.todosLosProductos.forEach((p) => {
       if (p.id == index) productoReturn = p;
     });
