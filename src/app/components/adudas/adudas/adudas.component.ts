@@ -42,9 +42,6 @@ export class AdudasComponent {
     let filtrados: any[] = [];
     let fToLowerCase;
     let filtrosLength = this.filtros.length;
-    let contadorDeOfertas = 0;
-    let contadorDeTipo = 0;
-    let contadorDeGenero = 0;
     let contadorDeCualidades = 0;
 
     if (filtrosLength > 0) {
