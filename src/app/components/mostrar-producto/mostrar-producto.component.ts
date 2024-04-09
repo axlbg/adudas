@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class MostrarProductoComponent {
   @Input() public p = {
+    id: 0,
     nombre: 'Sherman veniam',
     descripcion: 'Guantes para aterrizar mejor',
     precio: 471939,

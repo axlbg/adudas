@@ -1,10 +1,41 @@
 <div class="ver">
-  <div class="columna">
+  <div class="columna1">
     <div class="grid">
       <li class="item" *ngFor="let i of producto.galeria">
         <img src="{{ i }}" alt="" class="img" />
       </li>
     </div>
   </div>
-  <div class="columna">COMPRAR</div>
+  <div class="columna2">
+    <div class="derecha">
+      <h3 class="h3 nuevo" *ngIf="producto.nuevo">Lo nuevo</h3>
+      <h3 class="h3 titulo">{{ producto.nombre }}</h3>
+      <h3 class="h3 descripcion">{{ producto.descripcion }}</h3>
+      <div *ngIf="producto.descuento > 0; then thenBlock; else elseBlock"></div>
+      <ng-template #thenBlock>
+        <div class="boxprecio">
+          <h3 class="h3 precio tachado">
+            $ {{ producto.precio.toLocaleString() }}
+          </h3>
+          <h3 class="h3 precio">
+            $
+            {{
+              calcularDescuento(
+                producto.precio,
+                producto.descuento
+              ).toLocaleString()
+            }}
+          </h3>
+        </div>
+        <h3 class="h3 precio descuento">
+          {{ producto.descuento }}% de descuento
+        </h3></ng-template
+      >
+      <ng-template #elseBlock
+        ><h3 class="h3 precio">
+          $ {{ producto.precio.toLocaleString() }}
+        </h3></ng-template
+      >
+    </div>
+  </div>
 </div>

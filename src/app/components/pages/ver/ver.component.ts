@@ -14,7 +14,7 @@ export class VerComponent {
     descripcion: '',
     precio: 0,
     genero: '',
-    descuento: '0',
+    descuento: 0,
     imagen: '',
     galeria: ['', ''],
     tipo: '',
@@ -32,5 +32,9 @@ export class VerComponent {
         this.producto = this.productoService.traerPorId(params['id']);
       }
     });
+  }
+
+  calcularDescuento(precio: number, descuento: number) {
+    return Math.round(precio - precio * (descuento / 100));
   }
 }

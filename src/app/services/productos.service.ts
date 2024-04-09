@@ -22,7 +22,7 @@ export class ProductosService {
       descripcion: '',
       precio: 0,
       genero: '',
-      descuento: '0',
+      descuento: 0,
       imagen: '',
       galeria: ['', ''],
       tipo: '',

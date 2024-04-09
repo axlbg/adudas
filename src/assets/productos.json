@@ -5,7 +5,7 @@
     "descripcion": "Guantes para aterrizar mejor",
     "precio": 471000,
     "genero": "niño",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/1.jpg",
     "galeria": [
       "/assets/productos/imagenes/1.jpg",
@@ -21,10 +21,9 @@
     "descripcion": "Zapatillas para ir rápido",
     "precio": 469000,
     "genero": "unisex",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/2.jpg",
     "galeria": [
-      "/assets/productos/imagenes/2.jpg",
       "/assets/productos/imagenes/2.jpg",
       "/assets/productos/imagenes/2.jpg",
       "/assets/productos/imagenes/2.jpg",
@@ -41,7 +40,7 @@
     "descripcion": "Mochila skater",
     "precio": 172000,
     "genero": "niño",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/3.jpg",
     "galeria": [
       "/assets/productos/imagenes/3.jpg",
@@ -57,7 +56,7 @@
     "descripcion": "Camperita",
     "precio": 995000,
     "genero": "hombre",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/4.jpg",
     "galeria": [
       "/assets/productos/imagenes/4.jpg",
@@ -73,7 +72,7 @@
     "descripcion": "Buzo piola",
     "precio": 417000,
     "genero": "unisex",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/5.jpg",
     "galeria": [
       "/assets/productos/imagenes/5.jpg",
@@ -89,7 +88,7 @@
     "descripcion": "Gorra de futbol",
     "precio": 191000,
     "genero": "hombre",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/6.jpg",
     "galeria": [
       "/assets/productos/imagenes/6.jpg",
@@ -105,7 +104,7 @@
     "descripcion": "Buzo de basquet",
     "precio": 955000,
     "genero": "unisex",
-    "descuento": "40",
+    "descuento": 40,
     "imagen": "/assets/productos/imagenes/7.jpg",
     "galeria": [
       "/assets/productos/imagenes/7.jpg",
@@ -121,7 +120,7 @@
     "descripcion": "Calza de yoga",
     "precio": 708000,
     "genero": "hombre",
-    "descuento": "40",
+    "descuento": 40,
     "imagen": "/assets/productos/imagenes/8.jpg",
     "galeria": [
       "/assets/productos/imagenes/8.jpg",
@@ -137,7 +136,7 @@
     "descripcion": "Guantes del dibu",
     "precio": 372000,
     "genero": "hombre",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/9.jpg",
     "galeria": [
       "/assets/productos/imagenes/9.jpg",
@@ -153,7 +152,7 @@
     "descripcion": "Gorra para pistear",
     "precio": 476000,
     "genero": "niño",
-    "descuento": "40",
+    "descuento": 40,
     "imagen": "/assets/productos/imagenes/10.jpg",
     "galeria": [
       "/assets/productos/imagenes/10.jpg",
@@ -169,7 +168,7 @@
     "descripcion": "Buzo de patinaje",
     "precio": 613000,
     "genero": "unisex",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/11.jpg",
     "galeria": [
       "/assets/productos/imagenes/11.jpg",
@@ -185,7 +184,7 @@
     "descripcion": "La de boquita",
     "precio": 614000,
     "genero": "unisex",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/12.jpg",
     "galeria": [
       "/assets/productos/imagenes/12.jpg",
@@ -201,7 +200,7 @@
     "descripcion": "Gorrita que usaba Lebron James",
     "precio": 70000,
     "genero": "mujer",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/13.jpg",
     "galeria": [
       "/assets/productos/imagenes/13.jpg",
@@ -217,7 +216,7 @@
     "descripcion": "Guantes de velocidad",
     "precio": 70000,
     "genero": "hombre",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/14.jpg",
     "galeria": [
       "/assets/productos/imagenes/14.jpg",
@@ -233,7 +232,7 @@
     "descripcion": "Guantes de velocidad",
     "precio": 119000,
     "genero": "unisex",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/15.jpg",
     "galeria": [
       "/assets/productos/imagenes/15.jpg",
@@ -249,7 +248,7 @@
     "descripcion": "Botinera a pleno",
     "precio": 228000,
     "genero": "hombre",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/16.jpg",
     "galeria": [
       "/assets/productos/imagenes/16.jpg",
@@ -265,7 +264,7 @@
     "descripcion": "La de boquita mas grande",
     "precio": 185000,
     "genero": "mujer",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/17.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -281,7 +280,7 @@
     "descripcion": "Campera para el frio",
     "precio": 600000,
     "genero": "unisex",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/18.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -297,7 +296,7 @@
     "descripcion": "El buzo de Jordan",
     "precio": 540000,
     "genero": "unisex",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/19.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -313,7 +312,7 @@
     "descripcion": "Buzo de yoga",
     "precio": 340000,
     "genero": "unisex",
-    "descuento": "0",
+    "descuento": 0,
     "imagen": "/assets/productos/imagenes/20.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -329,7 +328,7 @@
     "descripcion": "El rojo de avellaneda",
     "precio": 180000,
     "genero": "mujer",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/21.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -345,7 +344,7 @@
     "descripcion": "Bucito de boca",
     "precio": 380000,
     "genero": "unisex",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/22.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -361,7 +360,7 @@
     "descripcion": "Mochilita pal botin",
     "precio": 90000,
     "genero": "mujer",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/23.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -377,7 +376,7 @@
     "descripcion": "Campera de manu",
     "precio": 510000,
     "genero": "mujer",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/24.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -393,7 +392,7 @@
     "descripcion": "Calzado runnning",
     "precio": 120000,
     "genero": "niño",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/25.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -409,7 +408,7 @@
     "descripcion": "Gorra de policia",
     "precio": 35000,
     "genero": "mujer",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/26.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -425,7 +424,7 @@
     "descripcion": "Buzo Lakers ",
     "precio": 350000,
     "genero": "unisex",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/27.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -441,7 +440,7 @@
     "descripcion": "Buzo de alta velocidad",
     "precio": 350000,
     "genero": "hombre",
-    "descuento": "40",
+    "descuento": 40,
     "imagen": "/assets/productos/imagenes/28.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -457,7 +456,7 @@
     "descripcion": "Mochila harry potter",
     "precio": 60000,
     "genero": "niño",
-    "descuento": "20",
+    "descuento": 20,
     "imagen": "/assets/productos/imagenes/29.jpg",
     "galeria": [
       "/assets/productos/imagenes/17.jpg",
@@ -473,7 +472,7 @@
     "descripcion": "Guante de basquet",
     "precio": 25000,
     "genero": "mujer",
-    "descuento": "30",
+    "descuento": 30,
     "imagen": "/assets/productos/imagenes/30.jpg",
     "galeria": [
       "/assets/productos/imagenes/30.jpg",
