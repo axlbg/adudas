@@ -25,6 +25,11 @@
   color: rgb(150, 150, 150);
 }
 
+.item:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .h4 {
   font-weight: lighter;
   font-size: small;
