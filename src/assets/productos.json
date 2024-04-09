@@ -2,8 +2,7 @@
   {
     "nombre": "Sherman veniam",
     "descripcion": "Guantes para aterrizar mejor",
-    "precio": 471939,
-    "balances": "$96000",
+    "precio": 471000,
     "genero": "niño",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/1.jpg",
@@ -14,8 +13,7 @@
   {
     "nombre": "Chambers et",
     "descripcion": "Zapatillas para ir rápido",
-    "precio": 469550,
-    "balances": "$332000",
+    "precio": 469000,
     "genero": "unisex",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/2.jpg",
@@ -26,8 +24,7 @@
   {
     "nombre": "Klein do",
     "descripcion": "Mochila skater",
-    "precio": 172825,
-    "balances": "$327000",
+    "precio": 172000,
     "genero": "niño",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/3.jpg",
@@ -38,8 +35,7 @@
   {
     "nombre": "Flynn magna",
     "descripcion": "Camperita",
-    "precio": 995200,
-    "balances": "$517000",
+    "precio": 995000,
     "genero": "hombre",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/4.jpg",
@@ -50,8 +46,7 @@
   {
     "nombre": "Dickerson laborum",
     "descripcion": "Buzo piola",
-    "precio": 417281,
-    "balances": "$170000",
+    "precio": 417000,
     "genero": "unisex",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/5.jpg",
@@ -62,8 +57,7 @@
   {
     "nombre": "Collier ad",
     "descripcion": "Gorra de futbol",
-    "precio": 191406,
-    "balances": "$136000",
+    "precio": 191000,
     "genero": "hombre",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/6.jpg",
@@ -74,8 +68,7 @@
   {
     "nombre": "Tucker adipisicing",
     "descripcion": "Buzo de basquet",
-    "precio": 955876,
-    "balances": "$378000",
+    "precio": 955000,
     "genero": "unisex",
     "descuento": "40",
     "imagen": "../../../assets/productos/imagenes/7.jpg",
@@ -86,8 +79,7 @@
   {
     "nombre": "Castillo consectetur",
     "descripcion": "Calza de yoga",
-    "precio": 708385,
-    "balances": "$434000",
+    "precio": 708000,
     "genero": "hombre",
     "descuento": "40",
     "imagen": "../../../assets/productos/imagenes/8.jpg",
@@ -98,8 +90,7 @@
   {
     "nombre": "Pate sunt",
     "descripcion": "Guantes del dibu",
-    "precio": 372343,
-    "balances": "$206000",
+    "precio": 372000,
     "genero": "hombre",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/9.jpg",
@@ -110,8 +101,7 @@
   {
     "nombre": "Simmons cillum",
     "descripcion": "Gorra para pistear",
-    "precio": 476481,
-    "balances": "$409000",
+    "precio": 476000,
     "genero": "niño",
     "descuento": "40",
     "imagen": "../../../assets/productos/imagenes/10.jpg",
@@ -122,8 +112,7 @@
   {
     "nombre": "Noble reprehenderit",
     "descripcion": "Buzo de patinaje",
-    "precio": 613220,
-    "balances": "$628000",
+    "precio": 613000,
     "genero": "unisex",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/11.jpg",
@@ -134,8 +123,7 @@
   {
     "nombre": "Edwards non",
     "descripcion": "La de boquita",
-    "precio": 614820,
-    "balances": "$415000",
+    "precio": 614000,
     "genero": "unisex",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/12.jpg",
@@ -146,8 +134,7 @@
   {
     "nombre": "Higgins in",
     "descripcion": "Gorrita que usaba Lebron James",
-    "precio": 705161,
-    "balances": "$129000",
+    "precio": 70000,
     "genero": "mujer",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/13.jpg",
@@ -158,8 +145,7 @@
   {
     "nombre": "Gross magna",
     "descripcion": "Guantes de velocidad",
-    "precio": 70848,
-    "balances": "$299000",
+    "precio": 70000,
     "genero": "hombre",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/14.jpg",
@@ -170,8 +156,7 @@
   {
     "nombre": "Odom cupidatat",
     "descripcion": "Guantes de velocidad",
-    "precio": 119293,
-    "balances": "$247000",
+    "precio": 119000,
     "genero": "unisex",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/15.jpg",
@@ -182,8 +167,7 @@
   {
     "nombre": "Marsh proident",
     "descripcion": "Botinera a pleno",
-    "precio": 428529,
-    "balances": "$370000",
+    "precio": 228000,
     "genero": "hombre",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/16.jpg",
@@ -194,8 +178,7 @@
   {
     "nombre": "Jarvis dolor",
     "descripcion": "La de boquita mas grande",
-    "precio": 185686,
-    "balances": "$473000",
+    "precio": 185000,
     "genero": "mujer",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/17.jpg",
@@ -206,8 +189,7 @@
   {
     "nombre": "Bean enim",
     "descripcion": "Campera para el frio",
-    "precio": 935791,
-    "balances": "$59000",
+    "precio": 600000,
     "genero": "unisex",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/18.jpg",
@@ -218,8 +200,7 @@
   {
     "nombre": "Gomez amet",
     "descripcion": "El buzo de Jordan",
-    "precio": 603637,
-    "balances": "$389000",
+    "precio": 540000,
     "genero": "unisex",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/19.jpg",
@@ -230,8 +211,7 @@
   {
     "nombre": "Ramsey cillum",
     "descripcion": "Buzo de yoga",
-    "precio": 737677,
-    "balances": "$572000",
+    "precio": 340000,
     "genero": "unisex",
     "descuento": "0",
     "imagen": "../../../assets/productos/imagenes/20.jpg",
@@ -242,8 +222,7 @@
   {
     "nombre": "Morales dolor",
     "descripcion": "El rojo de avellaneda",
-    "precio": 783022,
-    "balances": "$179000",
+    "precio": 180000,
     "genero": "mujer",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/21.jpg",
@@ -254,8 +233,7 @@
   {
     "nombre": "Dejesus incididunt",
     "descripcion": "Bucito de boca",
-    "precio": 48082,
-    "balances": "$611000",
+    "precio": 380000,
     "genero": "unisex",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/22.jpg",
@@ -266,8 +244,7 @@
   {
     "nombre": "Estrada in",
     "descripcion": "Mochilita pal botin",
-    "precio": 558864,
-    "balances": "$377000",
+    "precio": 90000,
     "genero": "mujer",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/23.jpg",
@@ -278,8 +255,7 @@
   {
     "nombre": "Ruiz qui",
     "descripcion": "Campera de manu",
-    "precio": 348332,
-    "balances": "$603000",
+    "precio": 510000,
     "genero": "mujer",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/24.jpg",
@@ -290,8 +266,7 @@
   {
     "nombre": "Riley laborum",
     "descripcion": "Calzado runnning",
-    "precio": 168746,
-    "balances": "$479000",
+    "precio": 120000,
     "genero": "niño",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/25.jpg",
@@ -302,8 +277,7 @@
   {
     "nombre": "Lawrence ullamco",
     "descripcion": "Gorra de policia",
-    "precio": 309123,
-    "balances": "$512000",
+    "precio": 35000,
     "genero": "mujer",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/26.jpg",
@@ -314,8 +288,7 @@
   {
     "nombre": "Sanders id",
     "descripcion": "Buzo Lakers ",
-    "precio": 809056,
-    "balances": "$109000",
+    "precio": 350000,
     "genero": "unisex",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/27.jpg",
@@ -326,8 +299,7 @@
   {
     "nombre": "Berger et",
     "descripcion": "Buzo de alta velocidad",
-    "precio": 748383,
-    "balances": "$236000",
+    "precio": 350000,
     "genero": "hombre",
     "descuento": "40",
     "imagen": "../../../assets/productos/imagenes/28.jpg",
@@ -338,8 +310,7 @@
   {
     "nombre": "Brooks occaecat",
     "descripcion": "Mochila harry potter",
-    "precio": 743209,
-    "balances": "$584000",
+    "precio": 60000,
     "genero": "niño",
     "descuento": "20",
     "imagen": "../../../assets/productos/imagenes/29.jpg",
@@ -350,8 +321,7 @@
   {
     "nombre": "Spence occaecat",
     "descripcion": "Guante de basquet",
-    "precio": 841560,
-    "balances": "$538000",
+    "precio": 25000,
     "genero": "mujer",
     "descuento": "30",
     "imagen": "../../../assets/productos/imagenes/30.jpg",
