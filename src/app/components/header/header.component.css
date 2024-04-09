@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-flow: column;
-  align-items: start;
+  align-items: flex-start;
 
   width: 100%;
   position: fixed;
@@ -47,7 +47,7 @@
 }
 
 .a {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 a:hover {
