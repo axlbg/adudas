@@ -6,7 +6,11 @@
     "precio": 471000,
     "genero": "niño",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/1.jpg",
+    "imagen": "/assets/productos/imagenes/1.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/1.jpg",
+      "/assets/productos/imagenes/1.jpg"
+    ],
     "tipo": "guante",
     "deporte": "skate",
     "nuevo": false
@@ -18,7 +22,11 @@
     "precio": 469000,
     "genero": "unisex",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/2.jpg",
+    "imagen": "/assets/productos/imagenes/2.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/2.jpg",
+      "/assets/productos/imagenes/2.jpg"
+    ],
     "tipo": "calzado",
     "deporte": "running",
     "nuevo": false
@@ -30,7 +38,11 @@
     "precio": 172000,
     "genero": "niño",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/3.jpg",
+    "imagen": "/assets/productos/imagenes/3.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/3.jpg",
+      "/assets/productos/imagenes/3.jpg"
+    ],
     "tipo": "mochila",
     "deporte": "skate",
     "nuevo": false
@@ -42,7 +54,11 @@
     "precio": 995000,
     "genero": "hombre",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/4.jpg",
+    "imagen": "/assets/productos/imagenes/4.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/4.jpg",
+      "/assets/productos/imagenes/4.jpg"
+    ],
     "tipo": "campera",
     "deporte": "yoga",
     "nuevo": false
@@ -54,7 +70,11 @@
     "precio": 417000,
     "genero": "unisex",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/5.jpg",
+    "imagen": "/assets/productos/imagenes/5.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/5.jpg",
+      "/assets/productos/imagenes/15.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "skate",
     "nuevo": false
@@ -66,7 +86,11 @@
     "precio": 191000,
     "genero": "hombre",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/6.jpg",
+    "imagen": "/assets/productos/imagenes/6.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/6.jpg",
+      "/assets/productos/imagenes/6.jpg"
+    ],
     "tipo": "gorra",
     "deporte": "futbol",
     "nuevo": false
@@ -78,7 +102,11 @@
     "precio": 955000,
     "genero": "unisex",
     "descuento": "40",
-    "imagen": "../../../assets/productos/imagenes/7.jpg",
+    "imagen": "/assets/productos/imagenes/7.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/7.jpg",
+      "/assets/productos/imagenes/7.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "basquet",
     "nuevo": false
@@ -90,7 +118,11 @@
     "precio": 708000,
     "genero": "hombre",
     "descuento": "40",
-    "imagen": "../../../assets/productos/imagenes/8.jpg",
+    "imagen": "/assets/productos/imagenes/8.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/8.jpg",
+      "/assets/productos/imagenes/8.jpg"
+    ],
     "tipo": "calzado",
     "deporte": "yoga",
     "nuevo": false
@@ -102,7 +134,11 @@
     "precio": 372000,
     "genero": "hombre",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/9.jpg",
+    "imagen": "/assets/productos/imagenes/9.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/9.jpg",
+      "/assets/productos/imagenes/9.jpg"
+    ],
     "tipo": "guante",
     "deporte": "futbol",
     "nuevo": false
@@ -114,7 +150,11 @@
     "precio": 476000,
     "genero": "niño",
     "descuento": "40",
-    "imagen": "../../../assets/productos/imagenes/10.jpg",
+    "imagen": "/assets/productos/imagenes/10.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/10.jpg",
+      "/assets/productos/imagenes/10.jpg"
+    ],
     "tipo": "gorra",
     "deporte": "skate",
     "nuevo": false
@@ -126,7 +166,11 @@
     "precio": 613000,
     "genero": "unisex",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/11.jpg",
+    "imagen": "/assets/productos/imagenes/11.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/11.jpg",
+      "/assets/productos/imagenes/11.jpg"
+    ],
     "tipo": "buzo",
     "deporte": "skate",
     "nuevo": false
@@ -138,7 +182,11 @@
     "precio": 614000,
     "genero": "unisex",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/12.jpg",
+    "imagen": "/assets/productos/imagenes/12.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/12.jpg",
+      "/assets/productos/imagenes/12.jpg"
+    ],
     "tipo": "camiseta",
     "deporte": "futbol",
     "nuevo": false
@@ -150,7 +198,11 @@
     "precio": 70000,
     "genero": "mujer",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/13.jpg",
+    "imagen": "/assets/productos/imagenes/13.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/13.jpg",
+      "/assets/productos/imagenes/13.jpg"
+    ],
     "tipo": "gorra",
     "deporte": "basquet",
     "nuevo": true
@@ -162,7 +214,11 @@
     "precio": 70000,
     "genero": "hombre",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/14.jpg",
+    "imagen": "/assets/productos/imagenes/14.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/14.jpg",
+      "/assets/productos/imagenes/14.jpg"
+    ],
     "tipo": "guante",
     "deporte": "running",
     "nuevo": true
@@ -174,7 +230,11 @@
     "precio": 119000,
     "genero": "unisex",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/15.jpg",
+    "imagen": "/assets/productos/imagenes/15.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/15.jpg",
+      "/assets/productos/imagenes/15.jpg"
+    ],
     "tipo": "guante",
     "deporte": "running",
     "nuevo": true
@@ -186,7 +246,11 @@
     "precio": 228000,
     "genero": "hombre",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/16.jpg",
+    "imagen": "/assets/productos/imagenes/16.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/16.jpg",
+      "/assets/productos/imagenes/16.jpg"
+    ],
     "tipo": "mochila",
     "deporte": "futbol",
     "nuevo": true
@@ -198,7 +262,11 @@
     "precio": 185000,
     "genero": "mujer",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/17.jpg",
+    "imagen": "/assets/productos/imagenes/17.jpg",
+    "galeria": [
+      "/assets/productos/imagenes/17.jpg",
+      "/assets/productos/imagenes/17.jpg"
+    ],
     "tipo": "camiseta",
     "deporte": "futbol",
     "nuevo": true
@@ -210,7 +278,7 @@
     "precio": 600000,
     "genero": "unisex",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/18.jpg",
+    "imagen": "/assets/productos/imagenes/18.jpg",
     "tipo": "campera",
     "deporte": "running",
     "nuevo": true
@@ -222,7 +290,7 @@
     "precio": 540000,
     "genero": "unisex",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/19.jpg",
+    "imagen": "/assets/productos/imagenes/19.jpg",
     "tipo": "buzo",
     "deporte": "basquet",
     "nuevo": false
@@ -234,7 +302,7 @@
     "precio": 340000,
     "genero": "unisex",
     "descuento": "0",
-    "imagen": "../../../assets/productos/imagenes/20.jpg",
+    "imagen": "/assets/productos/imagenes/20.jpg",
     "tipo": "buzo",
     "deporte": "yoga",
     "nuevo": false
@@ -246,7 +314,7 @@
     "precio": 180000,
     "genero": "mujer",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/21.jpg",
+    "imagen": "/assets/productos/imagenes/21.jpg",
     "tipo": "camiseta",
     "deporte": "futbol",
     "nuevo": true
@@ -258,7 +326,7 @@
     "precio": 380000,
     "genero": "unisex",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/22.jpg",
+    "imagen": "/assets/productos/imagenes/22.jpg",
     "tipo": "buzo",
     "deporte": "futbol",
     "nuevo": true
@@ -270,7 +338,7 @@
     "precio": 90000,
     "genero": "mujer",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/23.jpg",
+    "imagen": "/assets/productos/imagenes/23.jpg",
     "tipo": "mochila",
     "deporte": "futbol",
     "nuevo": true
@@ -282,7 +350,7 @@
     "precio": 510000,
     "genero": "mujer",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/24.jpg",
+    "imagen": "/assets/productos/imagenes/24.jpg",
     "tipo": "campera",
     "deporte": "basquet",
     "nuevo": true
@@ -294,7 +362,7 @@
     "precio": 120000,
     "genero": "niño",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/25.jpg",
+    "imagen": "/assets/productos/imagenes/25.jpg",
     "tipo": "calzado",
     "deporte": "running",
     "nuevo": false
@@ -306,7 +374,7 @@
     "precio": 35000,
     "genero": "mujer",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/26.jpg",
+    "imagen": "/assets/productos/imagenes/26.jpg",
     "tipo": "gorra",
     "deporte": "yoga",
     "nuevo": false
@@ -318,7 +386,7 @@
     "precio": 350000,
     "genero": "unisex",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/27.jpg",
+    "imagen": "/assets/productos/imagenes/27.jpg",
     "tipo": "buzo",
     "deporte": "basquet",
     "nuevo": false
@@ -330,7 +398,7 @@
     "precio": 350000,
     "genero": "hombre",
     "descuento": "40",
-    "imagen": "../../../assets/productos/imagenes/28.jpg",
+    "imagen": "/assets/productos/imagenes/28.jpg",
     "tipo": "buzo",
     "deporte": "running",
     "nuevo": false
@@ -342,7 +410,7 @@
     "precio": 60000,
     "genero": "niño",
     "descuento": "20",
-    "imagen": "../../../assets/productos/imagenes/29.jpg",
+    "imagen": "/assets/productos/imagenes/29.jpg",
     "tipo": "mochila",
     "deporte": "yoga",
     "nuevo": false
@@ -354,7 +422,7 @@
     "precio": 25000,
     "genero": "mujer",
     "descuento": "30",
-    "imagen": "../../../assets/productos/imagenes/30.jpg",
+    "imagen": "/assets/productos/imagenes/30.jpg",
     "tipo": "guante",
     "deporte": "basquet",
     "nuevo": false

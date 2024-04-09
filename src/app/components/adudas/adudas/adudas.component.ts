@@ -27,7 +27,7 @@ export class AdudasComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private productos: ProductosService
+    private productoService: ProductosService
   ) {}
 
   ngOnInit(): void {
@@ -69,7 +69,7 @@ export class AdudasComponent implements OnInit {
     let fToLowerCase;
     let filtrosLength = this.filtros.length;
     let contadorDeCualidades = 0;
-    let todosLosProductos = this.productos.traerProductos();
+    let todosLosProductos = this.productoService.traerProductos();
 
     if (filtrosLength > 0) {
       todosLosProductos.forEach((p: any) => {
