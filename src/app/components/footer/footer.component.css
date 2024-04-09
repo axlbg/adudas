@@ -1,5 +1,62 @@
 .footer {
-  height: 570px;
+  height: 350px;
   background-color: rgb(18, 18, 18);
   margin-top: 4em;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  color: white;
+
+  padding: 3em 8em 0;
+}
+
+.columna {
+  display: flex;
+  flex-flow: column;
+}
+
+.item {
+  display: flex;
+
+  padding: 0.6em 0;
+  color: rgb(150, 150, 150);
+}
+
+.h4 {
+  font-weight: lighter;
+  font-size: small;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0.5em;
+}
+
+.floor::before {
+  content: "";
+  height: 0.5px;
+  width: 100%;
+  background-color: rgb(150, 150, 150);
+  display: block;
+}
+
+.floor {
+  background-color: rgb(18, 18, 18);
+  height: 30px;
+  color: rgb(120, 120, 120);
+}
+
+.floor .floorbox {
+  padding: 1em 3.6em;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 9px;
 }

@@ -1,1 +1,15 @@
-<div class="footer"></div>
+<div class="footer">
+  <div class="columna"><h4 class="h4 titulo">SUSCRIBITE</h4></div>
+  <div class="columna" *ngFor="let c of columnas">
+    <h4 class="h4 titulo">{{ c.titulo }}</h4>
+    <div class="item" *ngFor="let i of c.items">
+      <h4 class="h4">{{ i }}</h4>
+    </div>
+  </div>
+  <div class="columna"><h4 class="h4 titulo">SEGUINOS EN REDES</h4></div>
+</div>
+<div class="floor">
+  <div class="floorbox">
+    <h5 class="h5">Argentina © 2024 Creado y diseñado por @axlbg</h5>
+  </div>
+</div>
