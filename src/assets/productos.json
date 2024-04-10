@@ -1,5 +1,61 @@
 [
   {
+    "id": 45,
+    "nombre": "Air Max Dn",
+    "descripcion": "Zapatillas - Hombre",
+    "precio": 169000,
+    "genero": "hombre",
+    "descuento": 40,
+    "imagen": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d234d2c-fb68-42df-8b4d-ce7e9b9dab02/air-max-dn-zapatillas-rZwC5C.png",
+    "galeria": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d234d2c-fb68-42df-8b4d-ce7e9b9dab02/air-max-dn-zapatillas-rZwC5C.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9617ac6c-fb03-4aee-ba26-2265df8144dd/air-max-dn-zapatillas-rZwC5C.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad991e9f-6b6d-4638-b269-be260cc13d2a/air-max-dn-zapatillas-rZwC5C.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c403378-d917-4abd-acab-bdd1587e5861/air-max-dn-zapatillas-rZwC5C.png"
+    ],
+    "tipo": "calzado",
+    "deporte": "basquet",
+    "coleccion": "airmax",
+    "nuevo": true
+  },
+  {
+    "id": 46,
+    "nombre": "Nike Air Max Plus Drift",
+    "descripcion": "Zapatillas - Hombre",
+    "precio": 199000,
+    "genero": "hombre",
+    "descuento": 20,
+    "imagen": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/198e37ad-6f8f-4fe4-b888-1bd0c32ee2d9/air-max-plus-drift-zapatillas-tSvfqV.png",
+    "galeria": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/198e37ad-6f8f-4fe4-b888-1bd0c32ee2d9/air-max-plus-drift-zapatillas-tSvfqV.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/04be003d-1d34-4bc9-af80-4ea504efe6c8/air-max-plus-drift-zapatillas-tSvfqV.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/391ae54f-3397-4ba4-8e1d-3c36cecb3548/air-max-plus-drift-zapatillas-tSvfqV.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/528e72b3-f4cd-4182-b20a-1068ddb17e4f/air-max-plus-drift-zapatillas-tSvfqV.png"
+    ],
+    "tipo": "calzado",
+    "deporte": "basquet",
+    "coleccion": "airmax",
+    "nuevo": true
+  },
+  {
+    "id": 36,
+    "nombre": "Short de Argentina Negros",
+    "descripcion": "Para camuflarse cuando es de noche",
+    "precio": 55000,
+    "genero": "unisex",
+    "descuento": 40,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2693523de09b431eb83435faa9492908_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2693523de09b431eb83435faa9492908_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/516fc6bf9a2c4f07998e8ceb124e8c5f_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_02_laydown_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80f66a1792364903aa737f3ad9572fa5_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_43_detail.jpg"
+    ],
+    "tipo": "short",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": false
+  },
+  {
     "id": 1,
     "nombre": "Buzo de los Lakers",
     "descripcion": "El buzo de James",
@@ -14,6 +70,25 @@
     "tipo": "buzo",
     "deporte": "basquet",
     "coleccion": "",
+    "nuevo": false
+  },
+  {
+    "id": 36,
+    "nombre": "Camiseta Tony Parker",
+    "descripcion": "San Antonio Spurs Men's Mitchell and Ness Tony Parker Hall Of Fame Jersey - Gray",
+    "precio": 180000,
+    "genero": "unisex",
+    "descuento": 0,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7717/smjy6866-sasyytpagrey_1__85699.1701721254.jpg",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7717/smjy6866-sasyytpagrey_1__85699.1701721254.jpg",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7718/smjy6866-sasyytpagrey_2__68371.1701721254.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7719/smjy6866-sasyytpagrey_3__55018.1701721254.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7720/smjy6866-sasyytpagrey_4__87081.1701721254.jpg?c=2"
+    ],
+    "tipo": "camiseta",
+    "deporte": "basquet",
+    "coleccion": "manu",
     "nuevo": false
   },
   {
@@ -49,6 +124,24 @@
     "deporte": "skate",
     "coleccion": "",
     "nuevo": false
+  },
+  {
+    "id": 42,
+    "nombre": "Buzo de Cavani 10",
+    "descripcion": "El buzo que diseñó Cavani al llegar a la bombonera",
+    "precio": 99000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/155415398d8c42509dfa9a73fa13b18b_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/155415398d8c42509dfa9a73fa13b18b_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f48c5765f36b4d75b85a685a2572dc27_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_02_laydown_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f48c5765f36b4d75b85a685a2572dc27_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_02_laydown_hover.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "boca",
+    "nuevo": true
   },
   {
     "id": 4,
@@ -605,24 +698,6 @@
   },
   {
     "id": 36,
-    "nombre": "Short de Argentina Negros",
-    "descripcion": "Para camuflarse cuando es de noche",
-    "precio": 55000,
-    "genero": "unisex",
-    "descuento": 40,
-    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2693523de09b431eb83435faa9492908_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_01_laydown.jpg",
-    "galeria": [
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2693523de09b431eb83435faa9492908_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_01_laydown.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/516fc6bf9a2c4f07998e8ceb124e8c5f_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_02_laydown_hover.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80f66a1792364903aa737f3ad9572fa5_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_43_detail.jpg"
-    ],
-    "tipo": "short",
-    "deporte": "futbol",
-    "coleccion": "messi",
-    "nuevo": false
-  },
-  {
-    "id": 36,
     "nombre": "Mochila Selección",
     "descripcion": "Mochila en la cual guardaban la Copa América",
     "precio": 51000,
@@ -637,25 +712,6 @@
     "tipo": "short",
     "deporte": "futbol",
     "coleccion": "messi",
-    "nuevo": false
-  },
-  {
-    "id": 36,
-    "nombre": "Camiseta Tony Parker",
-    "descripcion": "San Antonio Spurs Men's Mitchell and Ness Tony Parker Hall Of Fame Jersey - Gray",
-    "precio": 180000,
-    "genero": "unisex",
-    "descuento": 0,
-    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7717/smjy6866-sasyytpagrey_1__85699.1701721254.jpg",
-    "galeria": [
-      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7717/smjy6866-sasyytpagrey_1__85699.1701721254.jpg",
-      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7718/smjy6866-sasyytpagrey_2__68371.1701721254.jpg?c=2",
-      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7719/smjy6866-sasyytpagrey_3__55018.1701721254.jpg?c=2",
-      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7720/smjy6866-sasyytpagrey_4__87081.1701721254.jpg?c=2"
-    ],
-    "tipo": "camiseta",
-    "deporte": "basquet",
-    "coleccion": "manu",
     "nuevo": false
   },
   {
@@ -749,24 +805,6 @@
     "nuevo": false
   },
   {
-    "id": 42,
-    "nombre": "Buzo de Cavani 10",
-    "descripcion": "El buzo que diseñó Cavani al llegar a la bombonera",
-    "precio": 99000,
-    "genero": "hombre",
-    "descuento": 0,
-    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/155415398d8c42509dfa9a73fa13b18b_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_01_laydown.jpg",
-    "galeria": [
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/155415398d8c42509dfa9a73fa13b18b_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_01_laydown.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f48c5765f36b4d75b85a685a2572dc27_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_02_laydown_hover.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f48c5765f36b4d75b85a685a2572dc27_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_02_laydown_hover.jpg"
-    ],
-    "tipo": "camiseta",
-    "deporte": "futbol",
-    "coleccion": "boca",
-    "nuevo": true
-  },
-  {
     "id": 43,
     "nombre": "Short de boquita",
     "descripcion": "Short para correr gallinas",
@@ -799,5 +837,81 @@
     "deporte": "futbol",
     "coleccion": "boca",
     "nuevo": true
+  },
+  {
+    "id": 47,
+    "nombre": "Nike Air Max 90 GORE-TEX",
+    "descripcion": "Zapatillas - Niño",
+    "precio": 179000,
+    "genero": "niño",
+    "descuento": 30,
+    "imagen": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f684ace-3163-4227-8f85-2d2a067dd4f5/air-max-90-gore-tex-zapatillas-fQjC4b.png",
+    "galeria": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f684ace-3163-4227-8f85-2d2a067dd4f5/air-max-90-gore-tex-zapatillas-fQjC4b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/54b05355-dfdd-4589-876e-c02f97552e59/air-max-90-gore-tex-zapatillas-fQjC4b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/88bc0285-1a5d-49e7-8e8e-5cd8fa58a7d5/air-max-90-gore-tex-zapatillas-fQjC4b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0f495e92-9ff3-4ca6-804d-40a1a43242b1/air-max-90-gore-tex-zapatillas-fQjC4b.png"
+    ],
+    "tipo": "calzado",
+    "deporte": "basquet",
+    "coleccion": "airmax",
+    "nuevo": true
+  },
+  {
+    "id": 48,
+    "nombre": "Nike Air Max Plus",
+    "descripcion": "Zapatillas - Hombre",
+    "precio": 189000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9bf81cc2-7757-4c02-b1af-f3c060404afe/air-max-plus-zapatillas-D5RqNV.png",
+    "galeria": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9bf81cc2-7757-4c02-b1af-f3c060404afe/air-max-plus-zapatillas-D5RqNV.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/159e48c3-42a4-4be6-8a31-f4c4ce82ef3d/air-max-plus-zapatillas-D5RqNV.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7402a9ba-59c8-4f14-81bb-72b8837c968f/air-max-plus-zapatillas-D5RqNV.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a83afa2e-c235-48a7-a281-1f2a7c43b065/air-max-plus-zapatillas-D5RqNV.png"
+    ],
+    "tipo": "calzado",
+    "deporte": "basquet",
+    "coleccion": "airmax",
+    "nuevo": false
+  },
+  {
+    "id": 49,
+    "nombre": "Nike Air Max 90 GORE-TEX",
+    "descripcion": "Zapatillas - Mujer",
+    "precio": 179000,
+    "genero": "mujer",
+    "descuento": 0,
+    "imagen": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8a2c0de6-3c14-4bb3-b0f9-023cedd89515/air-max-90-gore-tex-zapatillas-1J3bKw.png",
+    "galeria": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8a2c0de6-3c14-4bb3-b0f9-023cedd89515/air-max-90-gore-tex-zapatillas-1J3bKw.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ca989668-f89c-43a7-be3c-5c5edbcfcc4d/air-max-90-gore-tex-zapatillas-1J3bKw.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/28ef40ce-4878-4a16-88be-6fdb8f9426be/air-max-90-gore-tex-zapatillas-1J3bKw.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad6a42b7-6776-4646-a03a-098e55a44a54/air-max-90-gore-tex-zapatillas-1J3bKw.png"
+    ],
+    "tipo": "calzado",
+    "deporte": "basquet",
+    "coleccion": "airmax",
+    "nuevo": false
+  },
+  {
+    "id": 50,
+    "nombre": "Nike Air Max Plus",
+    "descripcion": "Zapatillas - Mujer",
+    "precio": 199000,
+    "genero": "mujer",
+    "descuento": 30,
+    "imagen": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/gvdaqvcvmvzokrrgrcem/air-max-plus-zapatillas-nJPFW8.png",
+    "galeria": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/gvdaqvcvmvzokrrgrcem/air-max-plus-zapatillas-nJPFW8.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5llrdphhojvhbeod6ri/air-max-plus-zapatillas-nJPFW8.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/nv1wamen2yuemlwfcwhu/air-max-plus-zapatillas-nJPFW8.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/tvmphgvhstlrwzzfs53k/air-max-plus-zapatillas-nJPFW8.png"
+    ],
+    "tipo": "calzado",
+    "deporte": "basquet",
+    "coleccion": "airmax",
+    "nuevo": false
   }
 ]
