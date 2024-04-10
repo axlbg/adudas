@@ -18,6 +18,7 @@ export class AdudasComponent implements OnInit {
     'Gorra',
     'Guante',
     'Mochila',
+    'Short',
   ];
   generos: string[] = ['Hombre', 'Mujer', 'Niño', 'Unisex'];
   deportes: string[] = ['Futbol', 'Basquet', 'Skate', 'Yoga', 'Running'];

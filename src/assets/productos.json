@@ -85,7 +85,7 @@
     "tipo": "buzo",
     "deporte": "skate",
     "coleccion": "",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 6,
@@ -187,7 +187,7 @@
     "tipo": "buzo",
     "deporte": "skate",
     "coleccion": "",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 12,
@@ -204,7 +204,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 13,
@@ -238,7 +238,7 @@
     "tipo": "guante",
     "deporte": "running",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 15,
@@ -255,7 +255,7 @@
     "tipo": "guante",
     "deporte": "running",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 16,
@@ -272,7 +272,7 @@
     "tipo": "mochila",
     "deporte": "futbol",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 17,
@@ -289,7 +289,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 18,
@@ -510,6 +510,135 @@
     "tipo": "guante",
     "deporte": "basquet",
     "coleccion": "",
+    "nuevo": false
+  },
+  {
+    "id": 31,
+    "nombre": "Camiseta selección argentina",
+    "descripcion": "La 10 que usó Messi al nacer",
+    "precio": 100000,
+    "genero": "unisex",
+    "descuento": 20,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e5154892045d41779c1983a8bff8dbcf_9366/AFA_H_MESSI_Y_Blanco_IX7789_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e5154892045d41779c1983a8bff8dbcf_9366/AFA_H_MESSI_Y_Blanco_IX7789_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/14ea3b5f89204d4ba01b4723cf8a97e0_9366/AFA_H_MESSI_Y_Blanco_IX7789_02_laydown_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a6c4a3aa65b340e4801595879aba0175_9366/AFA_H_MESSI_Y_Blanco_IX7789_41_detail.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": true
+  },
+  {
+    "id": 32,
+    "nombre": "Camiseta alternativa argentina",
+    "descripcion": "Esta la disenó Maradona después de morir",
+    "precio": 70000,
+    "genero": "mujer",
+    "descuento": 0,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7703ca530968497984d08277e6eb99cc_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f3826bf180b04492a6e88dea3b250f67_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dd3d7d2aeaf6478ab59e64f6a007ee4d_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_23_hover_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b56f20fb71ea4ad2bf981ab69db9fbd0_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_25_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7703ca530968497984d08277e6eb99cc_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b56f20fb71ea4ad2bf981ab69db9fbd0_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_25_model.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": true
+  },
+  {
+    "id": 33,
+    "nombre": "Camiseta alternativa selección",
+    "descripcion": "Esta la disenó Pelé para hombres negros",
+    "precio": 79000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a01de10e8a0540a091beeb70c9fc7367_9366/Camiseta_Alternativa_Authentic_Argentina_24_Azul_IP8384_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/430623aec3f54f6c8ee3f3fb1615e841_9366/Camiseta_Alternativa_Authentic_Argentina_24_Azul_IP8384_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ee75a98b9f5486b813fd4b7f6c47f3b_9366/Camiseta_Alternativa_Authentic_Argentina_24_Azul_IP8384_23_hover_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bb741dc70eed4ee4983dfdb1dcec0763_9366/Camiseta_Alternativa_Authentic_Argentina_24_Azul_IP8384_25_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a01de10e8a0540a091beeb70c9fc7367_9366/Camiseta_Alternativa_Authentic_Argentina_24_Azul_IP8384_01_laydown.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": true
+  },
+  {
+    "id": 34,
+    "nombre": "Camiseta alternativa rubios",
+    "descripcion": "Camiseta de la selección solo para rubios argentinos",
+    "precio": 110000,
+    "genero": "hombre",
+    "descuento": 30,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29825b2765df4f449134febbd28f4f66_9366/Camiseta_Alternativa_Argentina_24_Azul_IP8403_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29825b2765df4f449134febbd28f4f66_9366/Camiseta_Alternativa_Argentina_24_Azul_IP8403_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a0a445d8420e49d3b784dba4ea0854ad_9366/Camiseta_Alternativa_Argentina_24_Azul_IP8403_02_laydown_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a083b38f61e14e978b74dccdb0dbc4aa_9366/Camiseta_Alternativa_Argentina_24_Azul_IP8403_41_detail.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6b8a1a5a3394402bb20597863c697d4e_9366/Camiseta_Alternativa_Argentina_24_Azul_IP8403_42_detail.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": false
+  },
+  {
+    "id": 35,
+    "nombre": "Short de Argentina",
+    "descripcion": "Con estos shorts creció jugando el Pupi Zanetti",
+    "precio": 37000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bfd7b2df3a7c4a8bbbabf19f556d2283_9366/Short_Titular_Argentina_24_Ninos_Blanco_IP8393_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bfd7b2df3a7c4a8bbbabf19f556d2283_9366/Short_Titular_Argentina_24_Ninos_Blanco_IP8393_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3fb833c09d62482dac3e1dd32e4bd641_9366/Short_Titular_Argentina_24_Ninos_Blanco_IP8393_02_laydown_hover.jpg"
+    ],
+    "tipo": "short",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": false
+  },
+  {
+    "id": 36,
+    "nombre": "Short de Argentina Negros",
+    "descripcion": "Para camuflarse cuando es de noche",
+    "precio": 55000,
+    "genero": "unisex",
+    "descuento": 40,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2693523de09b431eb83435faa9492908_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2693523de09b431eb83435faa9492908_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/516fc6bf9a2c4f07998e8ceb124e8c5f_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_02_laydown_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80f66a1792364903aa737f3ad9572fa5_9366/Shorts_de_Entrenamiento_Seleccion_Argentina_Gris_IQ0812_43_detail.jpg"
+    ],
+    "tipo": "short",
+    "deporte": "futbol",
+    "coleccion": "messi",
+    "nuevo": false
+  },
+  {
+    "id": 36,
+    "nombre": "Mochila Selección",
+    "descripcion": "Mochila en la cual guardaban la Copa América",
+    "precio": 51000,
+    "genero": "unisex",
+    "descuento": 20,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/23152ed0dd9741e0be1155d4f93601b6_9366/Mochila_Seleccion_Argentina_Negro_IS0544_01_standard.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/23152ed0dd9741e0be1155d4f93601b6_9366/Mochila_Seleccion_Argentina_Negro_IS0544_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e90f8f79ff24deaa0336bfc0dd162ab_9366/Mochila_Seleccion_Argentina_Negro_IS0544_04_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80edd5b160774a578c044283d9ee1b5c_9366/Mochila_Seleccion_Argentina_Negro_IS0544_05_hover_standard.jpg"
+    ],
+    "tipo": "short",
+    "deporte": "futbol",
+    "coleccion": "messi",
     "nuevo": false
   }
 ]

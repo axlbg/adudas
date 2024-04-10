@@ -19,6 +19,7 @@ import { GridproductosComponent } from './components/adudas/gridproductos/gridpr
 import { MostrarProductoComponent } from './components/mostrar-producto/mostrar-producto.component';
 import { VerComponent } from './components/pages/ver/ver.component';
 import { ColeccionComponent } from './components/pages/coleccion/coleccion.component';
+import { MostrarCarruselComponent } from './components/mostrar-carrusel/mostrar-carrusel.component';
 
 @NgModule({
   declarations: [
@@ -38,13 +39,11 @@ import { ColeccionComponent } from './components/pages/coleccion/coleccion.compo
     GridproductosComponent,
     MostrarProductoComponent,
     VerComponent,
-    ColeccionComponent
+    ColeccionComponent,
+    MostrarCarruselComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
