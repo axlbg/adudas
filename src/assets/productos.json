@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nombre": "Sherman veniam",
+    "nombre": "Guantes rojo",
     "descripcion": "Guantes para aterrizar mejor",
     "precio": 471000,
     "genero": "niño",
@@ -9,7 +9,8 @@
     "imagen": "/assets/productos/imagenes/1.jpg",
     "galeria": [
       "/assets/productos/imagenes/1.jpg",
-      "/assets/productos/imagenes/1.jpg"
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/362f9c6ed2e944a0a8a5ad0f00eb9b25_9366/Guantes_de_Arquero_de_Entrenamiento_Predator_Rojo_GR1531_01_standard.jpg",
+      "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8593c356/products/AD_ADICSG042-22/AD_ADICSG042-22-1.JPG"
     ],
     "tipo": "guante",
     "deporte": "skate",
@@ -26,10 +27,7 @@
     "imagen": "/assets/productos/imagenes/2.jpg",
     "galeria": [
       "/assets/productos/imagenes/2.jpg",
-      "/assets/productos/imagenes/2.jpg",
-      "/assets/productos/imagenes/2.jpg",
-      "/assets/productos/imagenes/2.jpg",
-      "/assets/productos/imagenes/2.jpg"
+      "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-adidas-supernova-azul-100010s42725001-1.jpg"
     ],
     "tipo": "calzado",
     "deporte": "running",
@@ -46,7 +44,7 @@
     "imagen": "/assets/productos/imagenes/3.jpg",
     "galeria": [
       "/assets/productos/imagenes/3.jpg",
-      "/assets/productos/imagenes/3.jpg"
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/574bda03f44a43778b70aead012a9ffb_9366/Mochila_Adicolor_Verde_HK2624_01_standard.jpg"
     ],
     "tipo": "mochila",
     "deporte": "skate",
@@ -55,7 +53,7 @@
   },
   {
     "id": 4,
-    "nombre": "Flynn magna",
+    "nombre": "Campera Adidas negra",
     "descripcion": "Camperita",
     "precio": 995000,
     "genero": "hombre",
@@ -63,7 +61,7 @@
     "imagen": "/assets/productos/imagenes/4.jpg",
     "galeria": [
       "/assets/productos/imagenes/4.jpg",
-      "/assets/productos/imagenes/4.jpg"
+      "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/g5s1kwpfgr6npllkultmd7vpmwl9/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5"
     ],
     "tipo": "campera",
     "deporte": "yoga",
@@ -72,7 +70,7 @@
   },
   {
     "id": 5,
-    "nombre": "Dickerson laborum",
+    "nombre": "Buzo adidas azul",
     "descripcion": "Buzo piola",
     "precio": 417000,
     "genero": "unisex",
@@ -80,7 +78,7 @@
     "imagen": "/assets/productos/imagenes/5.jpg",
     "galeria": [
       "/assets/productos/imagenes/5.jpg",
-      "/assets/productos/imagenes/15.jpg"
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0734af16a3d941a3bf40ae24013d0c5a_9366/Buzo_adidas_Essentials_Azul_HN1912_01_laydown.jpg"
     ],
     "tipo": "buzo",
     "deporte": "skate",
@@ -97,7 +95,7 @@
     "imagen": "/assets/productos/imagenes/6.jpg",
     "galeria": [
       "/assets/productos/imagenes/6.jpg",
-      "/assets/productos/imagenes/6.jpg"
+      "https://acdn.mitiendanube.com/stores/001/144/766/products/afa-3-estrellas-tr-neg-neg-21-918d7341f2868bd8b616733832220261-1024-1024.png"
     ],
     "tipo": "gorra",
     "deporte": "futbol",
@@ -114,7 +112,7 @@
     "imagen": "/assets/productos/imagenes/7.jpg",
     "galeria": [
       "/assets/productos/imagenes/7.jpg",
-      "/assets/productos/imagenes/7.jpg"
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/e8afddc586194c419ad5a801becee00f_9366/Buzo_Ligero_de_Entrenamiento_Boca_Juniors_Amarillo_HY0402_01_laydown.jpg"
     ],
     "tipo": "buzo",
     "deporte": "basquet",
@@ -140,7 +138,7 @@
   },
   {
     "id": 9,
-    "nombre": "Pate sunt",
+    "nombre": "Guantes fútbol",
     "descripcion": "Guantes del dibu",
     "precio": 372000,
     "genero": "hombre",
@@ -148,7 +146,7 @@
     "imagen": "/assets/productos/imagenes/9.jpg",
     "galeria": [
       "/assets/productos/imagenes/9.jpg",
-      "/assets/productos/imagenes/9.jpg"
+      "https://acdn.mitiendanube.com/stores/069/005/products/43930-031-6a338548d793b5a05e16245497308881-640-01-d057e5f676c5f9822416807040328186-1024-1024.jpg"
     ],
     "tipo": "guante",
     "deporte": "futbol",
@@ -157,7 +155,7 @@
   },
   {
     "id": 10,
-    "nombre": "Simmons cillum",
+    "nombre": "Gorra blanca",
     "descripcion": "Gorra para pistear",
     "precio": 476000,
     "genero": "niño",
@@ -165,7 +163,7 @@
     "imagen": "/assets/productos/imagenes/10.jpg",
     "galeria": [
       "/assets/productos/imagenes/10.jpg",
-      "/assets/productos/imagenes/10.jpg"
+      "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/1m8w55fnduxix3gkueemedrpdqhp/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5"
     ],
     "tipo": "gorra",
     "deporte": "skate",
@@ -182,7 +180,7 @@
     "imagen": "/assets/productos/imagenes/11.jpg",
     "galeria": [
       "/assets/productos/imagenes/11.jpg",
-      "/assets/productos/imagenes/11.jpg"
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/30a3dd7ad9f242208c56aefb01053493_9366/Buzo_Adicolor_Classics_3_Tiras_Cuello_Redondo_Verde_IA4863_21_model.jpg"
     ],
     "tipo": "buzo",
     "deporte": "skate",
@@ -191,7 +189,7 @@
   },
   {
     "id": 12,
-    "nombre": "Edwards non",
+    "nombre": "Camiseta de boquita",
     "descripcion": "La de boquita",
     "precio": 614000,
     "genero": "unisex",
@@ -199,7 +197,7 @@
     "imagen": "/assets/productos/imagenes/12.jpg",
     "galeria": [
       "/assets/productos/imagenes/12.jpg",
-      "/assets/productos/imagenes/12.jpg"
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4fcfb797d457430eaccaaec200dafeb7_9366/Camiseta_Titular_Boca_Juniors_22-23_Azul_HE6323_01_laydown.jpg"
     ],
     "tipo": "camiseta",
     "deporte": "futbol",
@@ -208,7 +206,7 @@
   },
   {
     "id": 13,
-    "nombre": "Higgins in",
+    "nombre": "Gorra Lakers",
     "descripcion": "Gorrita que usaba Lebron James",
     "precio": 70000,
     "genero": "mujer",
@@ -216,7 +214,7 @@
     "imagen": "/assets/productos/imagenes/13.jpg",
     "galeria": [
       "/assets/productos/imagenes/13.jpg",
-      "/assets/productos/imagenes/13.jpg"
+      "https://assets.laboutiqueofficielle.com/w_450,q_auto,f_auto/media/products/2022/09/07/mitchell-and-ness_337233_6HSSJS19078-LAL_PRGD_20220919T145516_04.jpg"
     ],
     "tipo": "gorra",
     "deporte": "basquet",
@@ -225,7 +223,7 @@
   },
   {
     "id": 14,
-    "nombre": "Gross magna",
+    "nombre": "Guantes agua",
     "descripcion": "Guantes de velocidad",
     "precio": 70000,
     "genero": "hombre",
@@ -233,7 +231,7 @@
     "imagen": "/assets/productos/imagenes/14.jpg",
     "galeria": [
       "/assets/productos/imagenes/14.jpg",
-      "/assets/productos/imagenes/14.jpg"
+      "https://media.futbolmania.com/media/catalog/product/cache/1/image/0f330055bc18e2dda592b4a7c3a0ea22/H/B/HB8062_guantes-de-portero-color-z-cian-adidas-x-training_1_completa-dorso-mano-derecha.jpg"
     ],
     "tipo": "guante",
     "deporte": "running",
@@ -250,7 +248,7 @@
     "imagen": "/assets/productos/imagenes/15.jpg",
     "galeria": [
       "/assets/productos/imagenes/15.jpg",
-      "/assets/productos/imagenes/15.jpg"
+      "https://acdn.mitiendanube.com/stores/002/458/854/products/hd_90-23176_11-b90e70c2d9d648f2a216670533263295-640-0.jpg"
     ],
     "tipo": "guante",
     "deporte": "running",
@@ -267,7 +265,7 @@
     "imagen": "/assets/productos/imagenes/16.jpg",
     "galeria": [
       "/assets/productos/imagenes/16.jpg",
-      "/assets/productos/imagenes/16.jpg"
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f4e4d421f94d4f46bc50371a25de0faa_9366/Mochila_Adicolor_Archive_Verde_IB9306_01_standard.jpg"
     ],
     "tipo": "mochila",
     "deporte": "futbol",
@@ -276,20 +274,20 @@
   },
   {
     "id": 17,
-    "nombre": "Jarvis dolor",
+    "nombre": "Camiseta tercer uniforme",
     "descripcion": "La de boquita mas grande",
-    "precio": 185000,
-    "genero": "mujer",
+    "precio": 155000,
+    "genero": "hombre",
     "descuento": 30,
-    "imagen": "/assets/productos/imagenes/17.jpg",
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f3eaf66cedb4244aab1ef15db7eb7de_9366/Camiseta_Tercer_Uniforme_Authentic_Boca_Juniors_24-25_Azul_IP6073_01_laydown.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f3eaf66cedb4244aab1ef15db7eb7de_9366/Camiseta_Tercer_Uniforme_Authentic_Boca_Juniors_24-25_Azul_IP6073_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fc8f0d667e0d402888ae65002f14dd1f_9366/Camiseta_Tercer_Uniforme_Authentic_Boca_Juniors_24-25_Azul_IP6073_02_laydown_hover.jpg"
     ],
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 18,
@@ -300,8 +298,8 @@
     "descuento": 30,
     "imagen": "/assets/productos/imagenes/18.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/18.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9120fd01ee734e13be7cac3101098b66_9366/Campera_Tiro_21_Rojo_GM7308_01_laydown.jpg"
     ],
     "tipo": "campera",
     "deporte": "running",
@@ -310,15 +308,15 @@
   },
   {
     "id": 19,
-    "nombre": "Gomez amet",
-    "descripcion": "El buzo de Jordan",
+    "nombre": "Buzo de los Lakers",
+    "descripcion": "El buzo de James",
     "precio": 540000,
     "genero": "unisex",
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/19.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/19.jpg",
+      "https://i.pinimg.com/originals/91/72/ef/9172efe026e6bf62512d4fcf92da763c.jpg"
     ],
     "tipo": "buzo",
     "deporte": "basquet",
@@ -334,8 +332,8 @@
     "descuento": 0,
     "imagen": "/assets/productos/imagenes/20.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/20.jpg",
+      "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw3599a62c/products/NIDQ6776-010/NIDQ6776-010-2.JPG"
     ],
     "tipo": "buzo",
     "deporte": "yoga",
@@ -344,15 +342,15 @@
   },
   {
     "id": 21,
-    "nombre": "Morales dolor",
+    "nombre": "Camiseta de Independiente",
     "descripcion": "El rojo de avellaneda",
     "precio": 180000,
     "genero": "mujer",
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/21.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/21.jpg",
+      "https://www.digitalsport.com.ar/files/products/65520e1c43ba7-638049-500x500.jpg"
     ],
     "tipo": "camiseta",
     "deporte": "futbol",
@@ -361,15 +359,15 @@
   },
   {
     "id": 22,
-    "nombre": "Dejesus incididunt",
+    "nombre": "Buzo boca",
     "descripcion": "Bucito de boca",
     "precio": 380000,
     "genero": "unisex",
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/22.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/22.jpg",
+      "https://mayorista.cbnsport.com.ar/wp-content/uploads/2023/09/190-1.jpg"
     ],
     "tipo": "buzo",
     "deporte": "futbol",
@@ -385,8 +383,8 @@
     "descuento": 30,
     "imagen": "/assets/productos/imagenes/23.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/23.jpg",
+      "/assets/productos/imagenes/23.jpg"
     ],
     "tipo": "mochila",
     "deporte": "futbol",
@@ -402,8 +400,8 @@
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/24.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/24.jpg",
+      "/assets/productos/imagenes/24.jpg"
     ],
     "tipo": "campera",
     "deporte": "basquet",
@@ -419,8 +417,8 @@
     "descuento": 30,
     "imagen": "/assets/productos/imagenes/25.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/25.jpg",
+      "/assets/productos/imagenes/25.jpg"
     ],
     "tipo": "calzado",
     "deporte": "running",
@@ -436,8 +434,8 @@
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/26.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/26.jpg",
+      "/assets/productos/imagenes/26.jpg"
     ],
     "tipo": "gorra",
     "deporte": "yoga",
@@ -453,8 +451,8 @@
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/27.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/27.jpg",
+      "/assets/productos/imagenes/27.jpg"
     ],
     "tipo": "buzo",
     "deporte": "basquet",
@@ -470,8 +468,8 @@
     "descuento": 40,
     "imagen": "/assets/productos/imagenes/28.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/28.jpg",
+      "/assets/productos/imagenes/28.jpg"
     ],
     "tipo": "buzo",
     "deporte": "running",
@@ -487,8 +485,8 @@
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/29.jpg",
     "galeria": [
-      "/assets/productos/imagenes/17.jpg",
-      "/assets/productos/imagenes/17.jpg"
+      "/assets/productos/imagenes/29.jpg",
+      "/assets/productos/imagenes/29.jpg"
     ],
     "tipo": "mochila",
     "deporte": "yoga",
@@ -567,7 +565,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "messi",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 34,
@@ -640,5 +638,166 @@
     "deporte": "futbol",
     "coleccion": "messi",
     "nuevo": false
+  },
+  {
+    "id": 36,
+    "nombre": "Camiseta Tony Parker",
+    "descripcion": "San Antonio Spurs Men's Mitchell and Ness Tony Parker Hall Of Fame Jersey - Gray",
+    "precio": 180000,
+    "genero": "unisex",
+    "descuento": 0,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7717/smjy6866-sasyytpagrey_1__85699.1701721254.jpg",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7717/smjy6866-sasyytpagrey_1__85699.1701721254.jpg",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7718/smjy6866-sasyytpagrey_2__68371.1701721254.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7719/smjy6866-sasyytpagrey_3__55018.1701721254.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4431/7720/smjy6866-sasyytpagrey_4__87081.1701721254.jpg?c=2"
+    ],
+    "tipo": "camiseta",
+    "deporte": "basquet",
+    "coleccion": "manu",
+    "nuevo": false
+  },
+  {
+    "id": 37,
+    "nombre": "Buzo de Manu ",
+    "descripcion": "San Antonio Spurs Men's Mitchell and Ness Tony Parker Hall Of Fame Hoodie - Black",
+    "precio": 149000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4574/7722/fphd6861-sasyytpablck_1__85543.1701721406.jpg?c=2",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4574/7722/fphd6861-sasyytpablck_1__85543.1701721406.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4574/7721/fphd6861-sasyytpablck_2__13495.1701721360.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4574/7723/fphd6861-sasyytpablck_3__02348.1701721360.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4574/7724/fphd6861-sasyytpablck_4__66165.1701721360.jpg?c=2"
+    ],
+    "tipo": "buzo",
+    "deporte": "basquet",
+    "coleccion": "manu",
+    "nuevo": true
+  },
+  {
+    "id": 38,
+    "nombre": "Camisa de la mujer de Manu ",
+    "descripcion": "San Antonio Spurs Women's Mitchell And Ness 1998 Tim Duncan Jersey Dress - Black",
+    "precio": 119000,
+    "genero": "mujer",
+    "descuento": 0,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4886/8114/TNMK5180-SAS98TDUBLCK_1__51459.1709242432.jpg?c=2",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4886/8114/TNMK5180-SAS98TDUBLCK_1__51459.1709242432.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4886/8115/TNMK5180-SAS98TDUBLCK_2__32317.1709242432.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4886/8116/TNMK5180-SAS98TDUBLCK_3__25431.1709242432.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4886/8117/TNMK5180-SAS98TDUBLCK_4__22897.1709242433.jpg?c=2"
+    ],
+    "tipo": "camiseta",
+    "deporte": "basquet",
+    "coleccion": "manu",
+    "nuevo": false
+  },
+  {
+    "id": 39,
+    "nombre": "Pollera de la mamá de manu",
+    "descripcion": "La madre de Manu pensaba que iba a ser mujer y le hizo esta pollera",
+    "precio": 119000,
+    "genero": "mujer",
+    "descuento": 0,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4885/8126/SKRT5179-SASYYPPPBLCK_1__03879.1709242951.jpg?c=2",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4885/8126/SKRT5179-SASYYPPPBLCK_1__03879.1709242951.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4885/8125/SKRT5179-SASYYPPPBLCK_2__63080.1709242946.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/500x659/products/4885/8128/SKRT5179-SASYYPPPBLCK_4__77388.1709242947.jpg?c=2"
+    ],
+    "tipo": "short",
+    "deporte": "basquet",
+    "coleccion": "manu",
+    "nuevo": false
+  },
+  {
+    "id": 40,
+    "nombre": "Gorra para clavadas",
+    "descripcion": "San Antonio Spurs Men's Mitchell and Ness Teal Hardwood Classic Heat Up Snapback Cap",
+    "precio": 49000,
+    "genero": "unisex",
+    "descuento": 20,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4317/7900/hhss6264-sasyypppteal_1__48497.1704342359.jpg?c=2",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4317/7900/hhss6264-sasyypppteal_1__48497.1704342359.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/4317/7901/hhss6264-sasyypppteal_2__74681.1704342359.jpg?c=2"
+    ],
+    "tipo": "gorra",
+    "deporte": "basquet",
+    "coleccion": "manu",
+    "nuevo": true
+  },
+  {
+    "id": 41,
+    "nombre": "Gorra para clavadas",
+    "descripcion": "San Antonio Spurs Men's Antigua Esteem Polo - Dark Gray",
+    "precio": 49000,
+    "genero": "unisex",
+    "descuento": 20,
+    "imagen": "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/3749/7039/122078__40485.1694404936.png?c=2",
+    "galeria": [
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/3749/7039/122078__40485.1694404936.png?c=2",
+      "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/500x659/products/3751/7040/122090__72760.1694405010.png?c=2"
+    ],
+    "tipo": "gorra",
+    "deporte": "basquet",
+    "coleccion": "manu",
+    "nuevo": true
+  },
+  {
+    "id": 42,
+    "nombre": "Buzo de Cavani 10",
+    "descripcion": "El buzo que diseñó Cavani al llegar a la bombonera",
+    "precio": 99000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/155415398d8c42509dfa9a73fa13b18b_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/155415398d8c42509dfa9a73fa13b18b_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f48c5765f36b4d75b85a685a2572dc27_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_02_laydown_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f48c5765f36b4d75b85a685a2572dc27_9366/Buzo_Boca_Juniors_Essentials_con_Cuello_Redondo_Azul_IL1052_02_laydown_hover.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "boca",
+    "nuevo": false
+  },
+  {
+    "id": 43,
+    "nombre": "Short de boquita",
+    "descripcion": "Short para correr gallinas",
+    "precio": 37000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/990c6d1771854fd782ec64a9da3cac98_9366/Shorts_Tercer_Uniforme_Boca_Juniors_24-25_Ninos_Azul_IP6067_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/990c6d1771854fd782ec64a9da3cac98_9366/Shorts_Tercer_Uniforme_Boca_Juniors_24-25_Ninos_Azul_IP6067_01_laydown.jpg ",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbe8b3dee56b428aa308cedb2a355760_9366/Shorts_Tercer_Uniforme_Boca_Juniors_24-25_Ninos_Azul_IP6067_02_laydown_hover.jpg"
+    ],
+    "tipo": "short",
+    "deporte": "futbol",
+    "coleccion": "boca",
+    "nuevo": false
+  },
+  {
+    "id": 44,
+    "nombre": "Ultima camiseta de boca",
+    "descripcion": "CAMISETA TERCER UNIFORME BOCA JUNIORS",
+    "precio": 170000,
+    "genero": "hombre",
+    "descuento": 40,
+    "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2608eed0de794450a50f07a7812eab8f_9366/Camiseta_Tercer_Uniforme_Boca_Juniors_23-24_HEAT.RDY_Azul_HT9917_01_laydown.jpg",
+    "galeria": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2608eed0de794450a50f07a7812eab8f_9366/Camiseta_Tercer_Uniforme_Boca_Juniors_23-24_HEAT.RDY_Azul_HT9917_01_laydown.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4849c1ae1894431ab89fefc0550b4b30_9366/Camiseta_Tercer_Uniforme_Boca_Juniors_23-24_HEAT.RDY_Azul_HT9917_02_laydown_hover.jpg"
+    ],
+    "tipo": "camiseta",
+    "deporte": "futbol",
+    "coleccion": "boca",
+    "nuevo": true
   }
 ]
