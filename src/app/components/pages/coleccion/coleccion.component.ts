@@ -9,39 +9,8 @@ import { ProductosService } from 'src/app/services/productos.service';
   styleUrls: ['./coleccion.component.css'],
 })
 export class ColeccionComponent {
-  isDragging = false;
-  startX = 0;
-  startScrollLeft = 0;
-
-  dragStop = () => {
-    this.isDragging = false;
-    document.getElementById('carro')!.classList.remove('dragging');
-  };
-
-  clickIzq() {
-    document.getElementById('carro')!.scrollLeft -= 300;
-  }
-  clickDer() {
-    document.getElementById('carro')!.scrollLeft += 300;
-  }
-
-  dragStart = (e: MouseEvent) => {
-    let carro = document.getElementById('carro');
-    this.isDragging = true;
-    carro!.classList.add('dragging');
-
-    this.startX = e.pageX;
-    this.startScrollLeft = carro!.scrollLeft;
-  };
-
-  dragging = (e: MouseEvent) => {
-    if (!this.isDragging) return;
-    document.getElementById('carro')!.scrollLeft =
-      this.startScrollLeft - (e.pageX - this.startX);
-  };
-
   nombre_coleccion: string = '';
-  coleccion = { nombre: '', header: '' };
+  coleccion = { nombre: '', titulo: '', header: '', texto: '' };
   productosFiltradosPorColeccion: any[] = [];
 
   constructor(
