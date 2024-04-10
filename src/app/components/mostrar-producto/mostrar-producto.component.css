@@ -1,12 +1,13 @@
 .img {
   max-width: 450px;
   max-height: 450px;
+  min-height: 400px;
   object-fit: contain;
 }
 
 .img1 {
   max-width: 440px;
-  max-height: 430px;
+  height: 430px;
 }
 .h3 {
   padding-top: 0.1em;

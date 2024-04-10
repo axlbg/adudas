@@ -89,7 +89,7 @@
     "tipo": "camiseta",
     "deporte": "basquet",
     "coleccion": "manu",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 2,
@@ -141,7 +141,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 4,
@@ -192,7 +192,7 @@
     "tipo": "buzo",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 7,
@@ -294,7 +294,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 13,
@@ -311,7 +311,7 @@
     "tipo": "gorra",
     "deporte": "basquet",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 14,
@@ -379,7 +379,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 18,
@@ -448,7 +448,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 22,
@@ -486,7 +486,7 @@
   },
   {
     "id": 24,
-    "nombre": "Ruiz qui",
+    "nombre": "Buzo de los spurs",
     "descripcion": "Campera de manu",
     "precio": 510000,
     "genero": "mujer",
@@ -499,7 +499,7 @@
     "tipo": "campera",
     "deporte": "basquet",
     "coleccion": "manu",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 25,
@@ -731,7 +731,7 @@
     "tipo": "buzo",
     "deporte": "basquet",
     "coleccion": "manu",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 38,
@@ -750,7 +750,7 @@
     "tipo": "camiseta",
     "deporte": "basquet",
     "coleccion": "manu",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 39,
@@ -836,7 +836,7 @@
     "tipo": "camiseta",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 47,
@@ -893,7 +893,7 @@
     "tipo": "calzado",
     "deporte": "basquet",
     "coleccion": "airmax",
-    "nuevo": false
+    "nuevo": true
   },
   {
     "id": 50,
@@ -912,6 +912,6 @@
     "tipo": "calzado",
     "deporte": "basquet",
     "coleccion": "airmax",
-    "nuevo": false
+    "nuevo": true
   }
 ]
