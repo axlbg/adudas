@@ -21,21 +21,32 @@ export class VerComponent {
     deporte: '',
     nuevo: false,
   };
+  productosPromo: any[] = [];
+
   constructor(
     private route: ActivatedRoute,
     private productoService: ProductosService
   ) {}
 
   ngOnInit() {
-    console.log('bueno');
     this.route.params.subscribe((params) => {
       if (this.productoService.traerPorId(params['id']) != undefined) {
         this.producto = this.productoService.traerPorId(params['id']);
       }
     });
+
+    this.productosPromo = this.productoService.traerRandom();
   }
 
   calcularDescuento(precio: number, descuento: number) {
     return Math.round(precio - precio * (descuento / 100));
+  }
+
+  comprarAhora() {
+    alert('compraste');
+  }
+
+  agregarAlCarrito() {
+    alert('agregar carro');
   }
 }

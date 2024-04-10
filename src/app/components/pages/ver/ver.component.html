@@ -8,34 +8,60 @@
   </div>
   <div class="columna2">
     <div class="derecha">
-      <h3 class="h3 nuevo" *ngIf="producto.nuevo">Lo nuevo</h3>
-      <h3 class="h3 titulo">{{ producto.nombre }}</h3>
-      <h3 class="h3 descripcion">{{ producto.descripcion }}</h3>
-      <div *ngIf="producto.descuento > 0; then thenBlock; else elseBlock"></div>
-      <ng-template #thenBlock>
-        <div class="boxprecio">
-          <h3 class="h3 precio tachado">
-            $ {{ producto.precio.toLocaleString() }}
-          </h3>
-          <h3 class="h3 precio">
-            $
-            {{
-              calcularDescuento(
-                producto.precio,
-                producto.descuento
-              ).toLocaleString()
-            }}
-          </h3>
+      <div class="box">
+        <h3 class="h3 nuevo padleft" *ngIf="producto.nuevo">Lo nuevo</h3>
+        <div class="box">
+          <h2 class="h2 titulo">{{ producto.nombre }}</h2>
+          <h3 class="h3 descripcion padleft">{{ producto.descripcion }}</h3>
         </div>
-        <h3 class="h3 precio descuento">
-          {{ producto.descuento }}% de descuento
-        </h3></ng-template
-      >
-      <ng-template #elseBlock
-        ><h3 class="h3 precio">
-          $ {{ producto.precio.toLocaleString() }}
-        </h3></ng-template
-      >
+        <div
+          *ngIf="producto.descuento > 0; then thenBlock; else elseBlock"
+        ></div>
+        <ng-template #thenBlock>
+          <div class="boxprecio">
+            <h3 class="h3 precio tachado">
+              $ {{ producto.precio.toLocaleString() }}
+            </h3>
+            <h2 class="h2 precio">
+              $
+              {{
+                calcularDescuento(
+                  producto.precio,
+                  producto.descuento
+                ).toLocaleString()
+              }}
+            </h2>
+          </div>
+          <h3 class="h3 precio descuento">
+            {{ producto.descuento }}% de descuento
+          </h3></ng-template
+        >
+        <ng-template #elseBlock
+          ><h2 class="h2 precio padleft">
+            $ {{ producto.precio.toLocaleString() }}
+          </h2></ng-template
+        >
+      </div>
+      <div class="box stock">
+        <h3 class="h3">- Stock disponible</h3>
+        <h3 class="h3">- Envío gratis</h3>
+      </div>
+      <div class="botonera">
+        <button class="button-40" (click)="comprarAhora()">
+          Comprar ahora
+        </button>
+
+        <button class="button-40 button-light" (click)="agregarAlCarrito()">
+          Agregar al carrito
+        </button>
+      </div>
     </div>
   </div>
+</div>
+
+<div class="ver maspad">
+  <app-mostrar-carrusel
+    [texto]="'Ver también'"
+    [productos]="productosPromo"
+  ></app-mostrar-carrusel>
 </div>

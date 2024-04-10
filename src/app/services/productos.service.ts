@@ -34,4 +34,12 @@ export class ProductosService {
     });
     return productoReturn;
   }
+
+  traerRandom() {
+    let productosReturn: any[] = [];
+    this.todosLosProductos.forEach((p) => {
+      if (Math.random() > 0.5) productosReturn.push(p);
+    });
+    return productosReturn;
+  }
 }
