@@ -83,7 +83,7 @@
     "tipo": "buzo",
     "deporte": "skate",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 6,
@@ -185,7 +185,7 @@
     "tipo": "buzo",
     "deporte": "skate",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 12,
@@ -304,7 +304,7 @@
     "tipo": "campera",
     "deporte": "running",
     "coleccion": "",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 19,
@@ -389,7 +389,7 @@
     "tipo": "mochila",
     "deporte": "futbol",
     "coleccion": "boca",
-    "nuevo": true
+    "nuevo": false
   },
   {
     "id": 24,
