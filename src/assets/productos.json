@@ -1,19 +1,18 @@
 [
   {
     "id": 1,
-    "nombre": "Guantes rojo",
-    "descripcion": "Guantes para aterrizar mejor",
-    "precio": 471000,
-    "genero": "niño",
-    "descuento": 30,
-    "imagen": "/assets/productos/imagenes/1.jpg",
+    "nombre": "Buzo de los Lakers",
+    "descripcion": "El buzo de James",
+    "precio": 540000,
+    "genero": "unisex",
+    "descuento": 20,
+    "imagen": "/assets/productos/imagenes/19.jpg",
     "galeria": [
-      "/assets/productos/imagenes/1.jpg",
-      "https://assets.adidas.com/images/w_600,f_auto,q_auto/362f9c6ed2e944a0a8a5ad0f00eb9b25_9366/Guantes_de_Arquero_de_Entrenamiento_Predator_Rojo_GR1531_01_standard.jpg",
-      "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8593c356/products/AD_ADICSG042-22/AD_ADICSG042-22-1.JPG"
+      "/assets/productos/imagenes/19.jpg",
+      "https://i.pinimg.com/originals/91/72/ef/9172efe026e6bf62512d4fcf92da763c.jpg"
     ],
-    "tipo": "guante",
-    "deporte": "skate",
+    "tipo": "buzo",
+    "deporte": "basquet",
     "coleccion": "",
     "nuevo": false
   },
@@ -87,20 +86,20 @@
   },
   {
     "id": 6,
-    "nombre": "Collier ad",
-    "descripcion": "Gorra de futbol",
-    "precio": 191000,
-    "genero": "hombre",
-    "descuento": 0,
-    "imagen": "/assets/productos/imagenes/6.jpg",
+    "nombre": "Buzo boca",
+    "descripcion": "Bucito de boca",
+    "precio": 380000,
+    "genero": "unisex",
+    "descuento": 20,
+    "imagen": "/assets/productos/imagenes/22.jpg",
     "galeria": [
-      "/assets/productos/imagenes/6.jpg",
-      "https://acdn.mitiendanube.com/stores/001/144/766/products/afa-3-estrellas-tr-neg-neg-21-918d7341f2868bd8b616733832220261-1024-1024.png"
+      "/assets/productos/imagenes/22.jpg",
+      "https://mayorista.cbnsport.com.ar/wp-content/uploads/2023/09/190-1.jpg"
     ],
-    "tipo": "gorra",
+    "tipo": "buzo",
     "deporte": "futbol",
-    "coleccion": "",
-    "nuevo": false
+    "coleccion": "boca",
+    "nuevo": true
   },
   {
     "id": 7,
@@ -308,18 +307,19 @@
   },
   {
     "id": 19,
-    "nombre": "Buzo de los Lakers",
-    "descripcion": "El buzo de James",
-    "precio": 540000,
-    "genero": "unisex",
-    "descuento": 20,
-    "imagen": "/assets/productos/imagenes/19.jpg",
+    "nombre": "Guantes rojo",
+    "descripcion": "Guantes para aterrizar mejor",
+    "precio": 471000,
+    "genero": "niño",
+    "descuento": 30,
+    "imagen": "/assets/productos/imagenes/1.jpg",
     "galeria": [
-      "/assets/productos/imagenes/19.jpg",
-      "https://i.pinimg.com/originals/91/72/ef/9172efe026e6bf62512d4fcf92da763c.jpg"
+      "/assets/productos/imagenes/1.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/362f9c6ed2e944a0a8a5ad0f00eb9b25_9366/Guantes_de_Arquero_de_Entrenamiento_Predator_Rojo_GR1531_01_standard.jpg",
+      "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8593c356/products/AD_ADICSG042-22/AD_ADICSG042-22-1.JPG"
     ],
-    "tipo": "buzo",
-    "deporte": "basquet",
+    "tipo": "guante",
+    "deporte": "skate",
     "coleccion": "",
     "nuevo": false
   },
@@ -359,20 +359,20 @@
   },
   {
     "id": 22,
-    "nombre": "Buzo boca",
-    "descripcion": "Bucito de boca",
-    "precio": 380000,
-    "genero": "unisex",
-    "descuento": 20,
-    "imagen": "/assets/productos/imagenes/22.jpg",
+    "nombre": "Collier ad",
+    "descripcion": "Gorra de futbol",
+    "precio": 191000,
+    "genero": "hombre",
+    "descuento": 0,
+    "imagen": "/assets/productos/imagenes/6.jpg",
     "galeria": [
-      "/assets/productos/imagenes/22.jpg",
-      "https://mayorista.cbnsport.com.ar/wp-content/uploads/2023/09/190-1.jpg"
+      "/assets/productos/imagenes/6.jpg",
+      "https://acdn.mitiendanube.com/stores/001/144/766/products/afa-3-estrellas-tr-neg-neg-21-918d7341f2868bd8b616733832220261-1024-1024.png"
     ],
-    "tipo": "buzo",
+    "tipo": "gorra",
     "deporte": "futbol",
-    "coleccion": "boca",
-    "nuevo": true
+    "coleccion": "",
+    "nuevo": false
   },
   {
     "id": 23,
@@ -733,7 +733,7 @@
   },
   {
     "id": 41,
-    "nombre": "Gorra para clavadas",
+    "nombre": "Polerita de las clavadas",
     "descripcion": "San Antonio Spurs Men's Antigua Esteem Polo - Dark Gray",
     "precio": 49000,
     "genero": "unisex",
@@ -743,7 +743,7 @@
       "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/1280x1280/products/3749/7039/122078__40485.1694404936.png?c=2",
       "https://cdn11.bigcommerce.com/s-bjbio4l8pu/images/stencil/500x659/products/3751/7040/122090__72760.1694405010.png?c=2"
     ],
-    "tipo": "gorra",
+    "tipo": "camiseta",
     "deporte": "basquet",
     "coleccion": "manu",
     "nuevo": true
