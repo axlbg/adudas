@@ -35,6 +35,9 @@ export class AdudasComponent implements OnInit {
     this.route.params.subscribe((params) => {
       if (params['filter'] == 'oportunidades') {
         this.filtros.push('40% OFF');
+      } else if (params['filter'] == 'novedades') {
+        this.filtros.push('Novedades');
+        this.abierto[5] = true;
       } else {
         let paramCapitalizado = this.capitalizeFirstLetter(params['filter']);
         if (

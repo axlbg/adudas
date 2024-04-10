@@ -38,7 +38,7 @@ export class ProductosService {
   traerRandom() {
     let productosReturn: any[] = [];
     this.todosLosProductos.forEach((p) => {
-      if (Math.random() > 0.5) productosReturn.push(p);
+      if (Math.random() > 0.7) productosReturn.push(p);
     });
     return productosReturn;
   }
