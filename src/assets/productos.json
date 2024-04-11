@@ -73,7 +73,7 @@
     "nuevo": false
   },
   {
-    "id": 36,
+    "id": 52,
     "nombre": "Camiseta Tony Parker",
     "descripcion": "San Antonio Spurs Men's Mitchell and Ness Tony Parker Hall Of Fame Jersey - Gray",
     "precio": 180000,
@@ -697,7 +697,7 @@
     "nuevo": false
   },
   {
-    "id": 36,
+    "id": 51,
     "nombre": "Mochila Selección",
     "descripcion": "Mochila en la cual guardaban la Copa América",
     "precio": 51000,
@@ -710,7 +710,7 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80edd5b160774a578c044283d9ee1b5c_9366/Mochila_Seleccion_Argentina_Negro_IS0544_05_hover_standard.jpg"
     ],
     "tipo": "short",
-    "deporte": "futbol",
+    "deporte": "mochila",
     "coleccion": "messi",
     "nuevo": false
   },
