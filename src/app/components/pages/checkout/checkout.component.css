@@ -36,6 +36,10 @@
   justify-content: center;
 }
 
+.paddingtop {
+  padding-top: 20px;
+}
+
 .paddingbot {
   padding-bottom: 20px;
 }
@@ -43,8 +47,8 @@
 .derecha {
   background-color: rgb(245, 245, 245);
   width: 450px;
-  height: 412px;
-  border-right: 15px solid;
+  height: 370px;
+  border-right: 15px solid white;
   padding: 2em;
 }
 
