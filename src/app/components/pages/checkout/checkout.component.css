@@ -3,7 +3,7 @@
   flex-flow: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 2em 0;
+  padding: 2em 4.6em;
   gap: 25px;
 }
 
@@ -36,6 +36,10 @@
   justify-content: center;
 }
 
+.paddingbot {
+  padding-bottom: 20px;
+}
+
 .derecha {
   background-color: rgb(245, 245, 245);
   width: 450px;
@@ -47,13 +51,15 @@
 .derecha .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 6px 0;
 }
 
 .derecha .grid-container::after {
   content: "";
   margin-left: 12px;
   height: 1px;
-  width: 90%;
+  width: 200%;
   margin-top: 10px;
   background-color: lightgrey;
   display: block;
@@ -65,13 +71,14 @@
   justify-content: right;
 }
 
-.derecha .h3 {
-  font-size: smaller;
-}
-
 .derecha .flex {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+}
+
+.derecha .h4 {
+  font-weight: 500;
 }
