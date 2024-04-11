@@ -1,0 +1,48 @@
+<div class="checkout">
+  <div class="izquierda">
+    <table class="table">
+      <tr class="tr">
+        <th>PRODUCTO</th>
+        <th>desc</th>
+        <th>PRECIO</th>
+        <th>CANTIDAD</th>
+        <th>SUBTOTAL</th>
+        <th>X</th>
+      </tr>
+
+      <tr *ngFor="let p of productosDelCarro" class="tr">
+        <td class="ts">
+          <div class="div"><img src="{{ p.img }}" alt="" class="img" /></div>
+        </td>
+        <td class="td">
+          <p class="p">{{ p.nombre }}</p>
+        </td>
+        <td class="td">
+          <p class="p">{{ p.precio }}</p>
+        </td>
+        <td class="td">{{ p.cantidad }}</td>
+        <td class="td">{{ p.precio * p.cantidad }}</td>
+        <td class="td">X</td>
+      </tr>
+    </table>
+  </div>
+  <div class="derecha"></div>
+</div>
+
+<div class="grid-container">
+  <p class="p">PRODUCTO</p>
+  <p class="p">PRECIO</p>
+  <p class="p">CANTIDAD</p>
+  <p class="p">SUBTOTAL</p>
+
+  <div *ngIf="proba == 12"></div>
+  <p class="p">Mi nombre1</p>
+  <p class="p">Mi precio1</p>
+  <p class="p">Mi cantidad1</p>
+  <p class="p">Mi subtotal1</p>
+
+  <p class="p">Mi nombre2</p>
+  <p class="p">Mi precio2</p>
+  <p class="p">Mi cantidad2</p>
+  <p class="p">Mi subtotal2</p>
+</div>

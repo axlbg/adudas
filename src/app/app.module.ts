@@ -20,6 +20,7 @@ import { MostrarProductoComponent } from './components/mostrar-producto/mostrar-
 import { VerComponent } from './components/pages/ver/ver.component';
 import { ColeccionComponent } from './components/pages/coleccion/coleccion.component';
 import { MostrarCarruselComponent } from './components/mostrar-carrusel/mostrar-carrusel.component';
+import { CheckoutComponent } from './components/pages/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { MostrarCarruselComponent } from './components/mostrar-carrusel/mostrar-
     VerComponent,
     ColeccionComponent,
     MostrarCarruselComponent,
+    CheckoutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
