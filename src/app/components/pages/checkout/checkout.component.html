@@ -26,23 +26,23 @@
       </tr>
     </table>
   </div>
-  <div class="derecha"></div>
-</div>
-
-<div class="grid-container">
-  <p class="p">PRODUCTO</p>
-  <p class="p">PRECIO</p>
-  <p class="p">CANTIDAD</p>
-  <p class="p">SUBTOTAL</p>
-
-  <div *ngIf="proba == 12"></div>
-  <p class="p">Mi nombre1</p>
-  <p class="p">Mi precio1</p>
-  <p class="p">Mi cantidad1</p>
-  <p class="p">Mi subtotal1</p>
-
-  <p class="p">Mi nombre2</p>
-  <p class="p">Mi precio2</p>
-  <p class="p">Mi cantidad2</p>
-  <p class="p">Mi subtotal2</p>
+  <div class="derecha">
+    <div class="inside">
+      <div class="flex">RESUMEN DE COMPRA</div>
+      <div class="grid-container">
+        <p class="p1">Subtotal</p>
+        <p class="p2">$180000</p>
+        <p class="p1">Descuento</p>
+        <p class="p2">$-20000</p>
+        <p class="p1">Envío</p>
+        <p class="p2">Sin cargo</p>
+        <p class="1p">Total</p>
+        <p class="p2">$160000</p>
+      </div>
+      <div class="flex">
+        <button class="button-40">Iniciar pago</button>
+        <a routerLink="/" class="a"><h3 class="h3">Seguir comprando</h3></a>
+      </div>
+    </div>
+  </div>
 </div>
