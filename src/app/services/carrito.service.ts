@@ -4,15 +4,15 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CarritoService {
-  items: Number[] = [];
+  items: number[] = [];
   constructor() {}
 
   traerItems() {
     return this.items;
   }
 
-  agregarItem(item: any) {
-    this.items.push(item);
+  agregarItem(id: any) {
+    this.items.push(id);
   }
 
   removerItemPorId(id: number) {
@@ -20,6 +20,10 @@ export class CarritoService {
     this.items.forEach((i) => {
       if (i != id) newArray.push(i);
     });
-    return newArray;
+    this.items = newArray;
+  }
+
+  cantidadDeItems() {
+    return this.items.length;
   }
 }

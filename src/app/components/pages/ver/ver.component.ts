@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CarritoService } from 'src/app/services/carrito.service';
 import { ProductosService } from 'src/app/services/productos.service';
 
@@ -24,6 +24,8 @@ export class VerComponent {
   };
   productosPromo: any[] = [];
 
+  router = inject(Router);
+
   constructor(
     private route: ActivatedRoute,
     private productoService: ProductosService,
@@ -45,12 +47,11 @@ export class VerComponent {
   }
 
   comprarAhora() {
-    alert('compraste');
+    this.router.navigate(['/checkout']);
   }
 
   agregarAlCarrito() {
     alert('agregar carro');
     this.cService.agregarItem(this.producto.id);
-    console.log(this.cService.traerItems());
   }
 }

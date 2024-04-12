@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.bi-trash {
+  cursor: pointer;
+}
+
 .div {
   display: flex;
   flex-flow: nowrap;
