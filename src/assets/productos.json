@@ -301,7 +301,7 @@
     "nombre": "Gorra Lakers",
     "descripcion": "Gorrita que usaba Lebron James",
     "precio": 70000,
-    "genero": "mujer",
+    "genero": "niño",
     "descuento": 0,
     "imagen": "/assets/productos/imagenes/13.jpg",
     "galeria": [
@@ -438,7 +438,7 @@
     "nombre": "Camiseta de Independiente",
     "descripcion": "El rojo de avellaneda",
     "precio": 180000,
-    "genero": "mujer",
+    "genero": "hombre",
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/21.jpg",
     "galeria": [
@@ -472,7 +472,7 @@
     "nombre": "Estrada in",
     "descripcion": "Mochilita pal botin",
     "precio": 90000,
-    "genero": "mujer",
+    "genero": "unisex",
     "descuento": 30,
     "imagen": "/assets/productos/imagenes/23.jpg",
     "galeria": [
@@ -489,7 +489,7 @@
     "nombre": "Buzo de los spurs",
     "descripcion": "Campera de manu",
     "precio": 510000,
-    "genero": "mujer",
+    "genero": "hombre",
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/24.jpg",
     "galeria": [
@@ -523,7 +523,7 @@
     "nombre": "Lawrence ullamco",
     "descripcion": "Gorra de policia",
     "precio": 35000,
-    "genero": "mujer",
+    "genero": "niño",
     "descuento": 20,
     "imagen": "/assets/productos/imagenes/26.jpg",
     "galeria": [
@@ -591,7 +591,7 @@
     "nombre": "Spence occaecat",
     "descripcion": "Guante de basquet",
     "precio": 25000,
-    "genero": "mujer",
+    "genero": "niño",
     "descuento": 30,
     "imagen": "/assets/productos/imagenes/30.jpg",
     "galeria": [
