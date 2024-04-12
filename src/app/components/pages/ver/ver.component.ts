@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { CarritoService } from 'src/app/services/carrito.service';
 import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
@@ -25,7 +26,8 @@ export class VerComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private productoService: ProductosService
+    private productoService: ProductosService,
+    private cService: CarritoService
   ) {}
 
   ngOnInit() {
@@ -48,5 +50,7 @@ export class VerComponent {
 
   agregarAlCarrito() {
     alert('agregar carro');
+    this.cService.agregarItem(this.producto.id);
+    console.log(this.cService.traerItems());
   }
 }

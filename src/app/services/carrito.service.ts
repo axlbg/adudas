@@ -18,7 +18,7 @@ export class CarritoService {
   removerItemPorId(id: number) {
     let newArray: any = [];
     this.items.forEach((i) => {
-      if (i != id) newArray.push(newArray[i]);
+      if (i != id) newArray.push(i);
     });
     return newArray;
   }

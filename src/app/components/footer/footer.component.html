@@ -5,7 +5,7 @@
   <div class="columna" *ngFor="let c of columnas">
     <h4 class="h4 titulo">{{ c.titulo }}</h4>
     <div class="item" *ngFor="let i of c.items">
-      <a href="{{ i.href }}"
+      <a routerLink="{{ i.href }}"
         ><h4 class="h4">{{ i.text }}</h4></a
       >
     </div>
