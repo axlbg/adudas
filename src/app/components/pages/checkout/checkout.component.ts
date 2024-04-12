@@ -18,50 +18,18 @@ export class CheckoutComponent {
       descuento: 20,
     },
   ];
-  // productosDelCarro: any[] = [];
-  resumen_subtotal = 0;
-  resumen_descuento = 0;
-  resumen_total = 0;
 
-  constructor(
-    private carritoService: CarritoService,
-    private pService: ProductosService
-  ) {}
-
-  ngOnInit() {
-    this.inicializarProductos();
-  }
+  constructor(public carritoService: CarritoService) {}
 
   removerProducto(id: number) {
     this.carritoService.removerItemPorId(id);
-    this.inicializarProductos();
   }
 
-  private inicializarProductos() {
-    let nuevoProducto;
-    let placeholder;
-    this.productosDelCarro = [];
-    this.resumen_descuento = 0;
-    this.resumen_subtotal = 0;
-    this.resumen_total = 0;
-
-    this.carritoService.traerItems().forEach((id) => {
-      placeholder = this.pService.traerPorId(id);
-      nuevoProducto = {
-        id: id,
-        img: placeholder.imagen,
-        nombre: placeholder.nombre,
-        cantidad: 1,
-        precio: placeholder.precio,
-        descuento: placeholder.descuento,
-      };
-      this.productosDelCarro.push(nuevoProducto);
-      this.resumen_subtotal += nuevoProducto.precio;
-      this.resumen_descuento +=
-        nuevoProducto.precio * (nuevoProducto.descuento / 100);
-      this.resumen_total = this.resumen_subtotal - this.resumen_descuento;
-    });
+  aumentarCantidad(id: number) {
+    this.carritoService.aumentarCantidadPorId(id);
   }
 
-  private ordenarDuplicados() {}
+  restarCantidad(id: number) {
+    this.carritoService.restarCantidadPorId(id);
+  }
 }

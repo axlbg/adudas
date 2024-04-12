@@ -47,6 +47,9 @@ export class VerComponent {
   }
 
   comprarAhora() {
+    if (!this.cService.estaEnElCarro(this.producto.id)) {
+      this.cService.agregarItem(this.producto);
+    }
     this.router.navigate(['/checkout']);
   }
 

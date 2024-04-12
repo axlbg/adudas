@@ -29,15 +29,16 @@
   text-align: center;
 }
 
-.bi-trash {
+.bi {
   cursor: pointer;
 }
 
-.div {
+.divtd {
   display: flex;
   flex-flow: nowrap;
   align-items: flex-end;
   justify-content: center;
+  gap: 20px;
 }
 
 .paddingtop {
