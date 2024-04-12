@@ -51,7 +51,6 @@ export class VerComponent {
   }
 
   agregarAlCarrito() {
-    alert('agregar carro');
-    this.cService.agregarItem(this.producto.id);
+    this.cService.agregarItem(this.producto);
   }
 }

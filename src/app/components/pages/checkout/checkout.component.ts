@@ -62,4 +62,6 @@ export class CheckoutComponent {
       this.resumen_total = this.resumen_subtotal - this.resumen_descuento;
     });
   }
+
+  private ordenarDuplicados() {}
 }

@@ -4,15 +4,36 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CarritoService {
-  items: number[] = [];
+  items: any[] = [];
+
+  productosDelCarro: any[] = [
+    {
+      id: 13,
+      img: '/assets/productos/imagenes/13.jpg',
+      nombre: 'Nike Sportswear Sport',
+      cantidad: 1,
+      precio: 43000,
+      descuento: 20,
+    },
+  ];
+
   constructor() {}
 
   traerItems() {
     return this.items;
   }
 
-  agregarItem(id: any) {
-    this.items.push(id);
+  agregarItem(p: any) {
+    let nuevoProducto: any;
+    nuevoProducto = {
+      id: p.id,
+      img: p.imagen,
+      nombre: p.nombre,
+      cantidad: 1,
+      precio: p.precio,
+      descuento: p.descuento,
+    };
+    this.items.push(nuevoProducto);
   }
 
   removerItemPorId(id: number) {

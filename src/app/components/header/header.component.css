@@ -71,12 +71,9 @@ a:hover {
   font-size: 0.8em;
 }
 
-.bi-cart {
-  cursor: pointer;
-}
-
 .carrito {
   display: flex;
+  cursor: pointer;
 }
 
 .carrito .p {
