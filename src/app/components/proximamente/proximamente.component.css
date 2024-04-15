@@ -16,3 +16,14 @@
 .h1 {
   padding: 0.2em;
 }
+
+.img {
+  height: 900px;
+}
+
+@media screen and (max-width: 640px) {
+  .img {
+    width: 100%;
+    height: 730px;
+  }
+}

@@ -1,16 +1,20 @@
 .footer {
-  height: 350px;
   background-color: rgb(18, 18, 18);
   margin-top: 4em;
 
+  color: white;
+  width: 100%;
+}
+
+.contain {
+  height: 350px;
+  width: 94%;
+  padding: 3em 0 0;
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-
-  color: white;
-
-  padding: 3em 8em 0;
 }
 
 .columna {

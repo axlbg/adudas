@@ -81,8 +81,19 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .wrapper .carousel {
     grid-auto-columns: 100%;
+  }
+
+  .component {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    width: 100%;
+    height: 600px;
   }
 }
