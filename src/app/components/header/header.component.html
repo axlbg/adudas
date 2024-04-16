@@ -1,44 +1,92 @@
-<header class="header">
+<header class="header" id="header">
   <div class="header__sup sup">
     <ul class="ul">
       <li class="li" title="Ayuda">
-        <a routerLink="/devoluciones" class="a4">Ayuda</a>
+        <a routerLink="/devoluciones" (click)="clickCerrarMenu()" class="a4"
+          >Ayuda</a
+        >
       </li>
       <li class="li" title="Suscribirse">
-        <a routerLink="/suscribirse" class="a4">Suscribirse</a>
+        <a routerLink="/suscribirse" (click)="clickCerrarMenu()" class="a4"
+          >Suscribirse</a
+        >
       </li>
     </ul>
   </div>
   <div class="header__med med">
-    <a routerLink="/" class="a"
-      ><img
-        src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
-        alt=""
-        class="img_logo"
-        loading="lazy"
-    /></a>
+    <div class="logo">
+      <a routerLink="/" (click)="clickCerrarMenu()" class="a"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
+          alt=""
+          class="img_logo"
+          loading="lazy"
+      /></a>
+      <a class="cross" (click)="clickCerrarMenu()"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          /></svg
+      ></a>
+    </div>
 
     <ul class="ul">
       <li class="li">
-        <a routerLink="/adudas/" class="a nav" title="Destacados">Destacados</a>
+        <a
+          routerLink="/adudas/"
+          (click)="clickCerrarMenu()"
+          class="a nav"
+          title="Destacados"
+          >Destacados</a
+        >
       </li>
       <li class="li">
-        <a routerLink="/adudas/hombre" class="a nav" title="Hombre">Hombre</a>
+        <a
+          routerLink="/adudas/hombre"
+          (click)="clickCerrarMenu()"
+          class="a nav"
+          title="Hombre"
+          >Hombre</a
+        >
       </li>
       <li class="li">
-        <a routerLink="/adudas/mujer" class="a nav" title="Mujer">Mujer</a>
+        <a
+          routerLink="/adudas/mujer"
+          (click)="clickCerrarMenu()"
+          class="a nav"
+          title="Mujer"
+          >Mujer</a
+        >
       </li>
       <li class="li">
-        <a routerLink="/adudas/niño" class="a nav" title="Niño/a">Niño/a</a>
+        <a
+          routerLink="/adudas/niño"
+          (click)="clickCerrarMenu()"
+          class="a nav"
+          title="Niño/a"
+          >Niño/a</a
+        >
       </li>
       <li class="li">
-        <a routerLink="/adudas/mochila" class="a nav" title="Accesorios"
+        <a
+          routerLink="/adudas/mochila"
+          (click)="clickCerrarMenu()"
+          class="a nav"
+          title="Accesorios"
           >Accesorios</a
         >
       </li>
       <li class="li">
         <a
           routerLink="/adudas/oportunidades"
+          (click)="clickCerrarMenu()"
           class="a nav"
           title="Oportunidades"
           >Oportunidades</a
@@ -46,7 +94,7 @@
       </li>
     </ul>
 
-    <div class="carrito" routerLink="/checkout">
+    <div class="carrito" routerLink="/checkout" (click)="clickCerrarMenu()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="23"
@@ -63,6 +111,49 @@
         ({{ cService.items.length }})
       </p>
     </div>
+  </div>
+</header>
+<header class="header_mobile">
+  <a class="a" (click)="clickOpenMenu()">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40"
+      height="35"
+      fill="currentColor"
+      class="bi bi-list"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+      /></svg
+  ></a>
+
+  <a routerLink="/" (click)="clickCerrarMenu()" class="a"
+    ><img
+      src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
+      alt=""
+      class="img_logo"
+      loading="lazy"
+  /></a>
+  <div
+    class="carrito_mobile"
+    routerLink="/checkout"
+    (click)="clickCerrarMenu()"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="23"
+      height="23"
+      fill="currentColor"
+      class="bi bi-cart"
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+      />
+    </svg>
+    <p class="p" *ngIf="cService.items.length">({{ cService.items.length }})</p>
   </div>
 </header>
 <app-publicidad></app-publicidad>

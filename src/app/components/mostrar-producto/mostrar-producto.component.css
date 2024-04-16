@@ -1,7 +1,6 @@
 .item {
-  max-width: 450px;
-  max-height: 450px;
-  min-height: 400px;
+  width: 450px;
+  height: 450px;
   object-fit: contain;
 }
 
@@ -54,7 +53,7 @@
   }
 
   .img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }

@@ -35,6 +35,10 @@
   max-height: 3.5em;
 }
 
+.cross {
+  display: none;
+}
+
 .ul {
   display: flex;
   flex-flow: row nowrap;
@@ -78,4 +82,121 @@ a:hover {
 
 .carrito .p {
   font-size: smaller;
+}
+
+.header_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .cross {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 50px;
+  }
+
+  .header {
+    flex-flow: column-reverse;
+    width: 450px;
+    height: 100%;
+    transition: 0.5 ease;
+    justify-content: flex-end;
+    transform: translateX(-450px);
+    /*box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);*/
+  }
+
+  .sup {
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .sup::after {
+    content: "";
+    margin-left: 12px;
+    height: 1px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: lightgrey;
+    display: block;
+  }
+
+  .med {
+    width: 100%;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .img_logo::before {
+    content: "";
+    margin-left: 12px;
+    height: 1px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: lightgrey;
+    display: block;
+  }
+
+  .ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  ul::before {
+    content: "";
+    margin-left: 12px;
+    height: 1px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: lightgrey;
+    display: block;
+  }
+
+  .li {
+    margin: 5px;
+  }
+
+  .a4 {
+    margin: 2px;
+    font-size: medium;
+  }
+
+  .carrito {
+    display: none;
+  }
+
+  .header_mobile {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+    margin: auto;
+  }
+
+  .carrito_mobile {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .carrito_mobile .p {
+    font-size: smaller;
+  }
 }

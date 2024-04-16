@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 640px) {
   .div {
-    margin: 4.25em auto 0;
+    margin: auto;
   }
 
   .texto {

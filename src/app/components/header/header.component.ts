@@ -8,4 +8,14 @@ import { CarritoService } from 'src/app/services/carrito.service';
 })
 export class HeaderComponent {
   constructor(public cService: CarritoService) {}
+
+  clickCerrarMenu() {
+    document.getElementById('header')!.style.transform = 'translateX(-450px)';
+    document.getElementById('header')!.style.boxShadow = '0 0 0';
+  }
+  clickOpenMenu() {
+    document.getElementById('header')!.style.transform = 'translateX(0)';
+    document.getElementById('header')!.style.boxShadow =
+      '0 0 15px rgb(0, 0, 0, 0.5)';
+  }
 }
