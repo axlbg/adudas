@@ -35,6 +35,18 @@
   gap: 0.5em;
 }
 
+@media screen and (max-width: 1100px) {
+  .item {
+    width: 360px;
+    min-height: 380px;
+  }
+
+  .img {
+    width: 300px;
+    min-height: 300px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .item {
     width: 320px;
