@@ -7,6 +7,9 @@ import { ColeccionComponent } from './components/pages/coleccion/coleccion.compo
 import { CheckoutComponent } from './components/pages/checkout/checkout.component';
 import { PagoComponent } from './components/pages/pago/pago.component';
 import { TerminosYCondicionesComponent } from './components/pages/terminos-y-condiciones/terminos-y-condiciones.component';
+import { DevolucionesComponent } from './components/pages/devoluciones/devoluciones.component';
+import { NoticiasComponent } from './components/pages/noticias/noticias.component';
+import { SuscribirseComponent } from './components/pages/suscribirse/suscribirse.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -18,6 +21,9 @@ const routes: Routes = [
   { path: 'checkout', component: CheckoutComponent },
   { path: 'pago', component: PagoComponent },
   { path: 'terminos-y-condiciones', component: TerminosYCondicionesComponent },
+  { path: 'devoluciones', component: DevolucionesComponent },
+  { path: 'noticias', component: NoticiasComponent },
+  { path: 'suscribirse', component: SuscribirseComponent },
   { path: '**', component: MainComponent },
 ];
 

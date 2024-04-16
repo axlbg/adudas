@@ -9,17 +9,12 @@ export class FooterComponent {
   columnas = [
     {
       titulo: 'AYUDA',
-      items: [
-        { text: 'Envíos y entregas', href: '/' },
-        { text: 'Devoluciones', href: '/' },
-        { text: 'Contactarse', href: '/' },
-      ],
+      items: [{ text: 'Devoluciones', href: '/devoluciones' }],
     },
     {
       titulo: 'ACERCA DE',
       items: [
-        { text: 'Noticias', href: '/' },
-        { text: 'Inversionistas', href: '/' },
+        { text: 'Noticias', href: '/noticias' },
         { text: 'Terminos y condiciones', href: '/terminos-y-condiciones' },
       ],
     },
