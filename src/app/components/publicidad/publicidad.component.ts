@@ -16,7 +16,7 @@ export class PublicidadComponent {
     {
       texto: 'Algunos productos pueden no ser lo que parece',
       a: 'Ver terminos y condiciones',
-      href: '#',
+      href: '/terminos-y-condiciones',
     },
     {
       texto: 'Tenemos la ropa de Messi',

@@ -1,0 +1,7 @@
+.box {
+  height: 600px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 5em;
+}

@@ -23,6 +23,7 @@ export class VerComponent {
     nuevo: false,
   };
   productosPromo: any[] = [];
+  addedBool = false;
 
   router = inject(Router);
 
@@ -36,6 +37,7 @@ export class VerComponent {
     this.route.params.subscribe((params) => {
       if (this.productoService.traerPorId(params['id']) != undefined) {
         this.producto = this.productoService.traerPorId(params['id']);
+        this.addedBool = false;
       }
     });
 
@@ -55,5 +57,6 @@ export class VerComponent {
 
   agregarAlCarrito() {
     this.cService.agregarItem(this.producto);
+    this.addedBool = true;
   }
 }

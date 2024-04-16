@@ -12,7 +12,6 @@ export class FooterComponent {
       items: [
         { text: 'Envíos y entregas', href: '/' },
         { text: 'Devoluciones', href: '/' },
-        { text: 'Cambios', href: '/' },
         { text: 'Contactarse', href: '/' },
       ],
     },
@@ -21,15 +20,15 @@ export class FooterComponent {
       items: [
         { text: 'Noticias', href: '/' },
         { text: 'Inversionistas', href: '/' },
-        { text: 'Terminos y condiciones', href: '/' },
+        { text: 'Terminos y condiciones', href: '/terminos-y-condiciones' },
       ],
     },
     {
       titulo: 'NOVEDADES',
       items: [
         { text: 'Lo nuevo', href: '/adudas/novedades' },
-        { text: 'Hombres', href: '/adudas/hombres' },
-        { text: 'Mujeres', href: '/adudas/mujeres' },
+        { text: 'Hombres', href: '/adudas/hombre' },
+        { text: 'Mujeres', href: '/adudas/mujer' },
         { text: 'Niños', href: '/adudas/niño' },
         { text: 'Promociones', href: '/adudas/oportunidades' },
       ],

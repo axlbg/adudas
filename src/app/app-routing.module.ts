@@ -5,6 +5,8 @@ import { MainComponent } from './components/main/main.component';
 import { VerComponent } from './components/pages/ver/ver.component';
 import { ColeccionComponent } from './components/pages/coleccion/coleccion.component';
 import { CheckoutComponent } from './components/pages/checkout/checkout.component';
+import { PagoComponent } from './components/pages/pago/pago.component';
+import { TerminosYCondicionesComponent } from './components/pages/terminos-y-condiciones/terminos-y-condiciones.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'ver/:id', component: VerComponent },
   { path: 'coleccion/:nombre', component: ColeccionComponent },
   { path: 'checkout', component: CheckoutComponent },
+  { path: 'pago', component: PagoComponent },
+  { path: 'terminos-y-condiciones', component: TerminosYCondicionesComponent },
   { path: '**', component: MainComponent },
 ];
 

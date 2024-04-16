@@ -51,9 +51,26 @@
           Comprar ahora
         </button>
 
-        <button class="button-40 button-40-light" (click)="agregarAlCarrito()">
-          Agregar al carrito
-        </button>
+        <ng-template
+          *ngIf="!addedBool; then thenBlack; else elseBlack"
+        ></ng-template>
+        <ng-template #thenBlack>
+          <button
+            class="button-40 button-40-light"
+            (click)="agregarAlCarrito()"
+          >
+            Agregar al carrito
+          </button></ng-template
+        >
+        <ng-template #elseBlack>
+          <h3 class="h3 added">Agregado al carrito</h3>
+          <button
+            class="button-40 button-40-light"
+            (click)="agregarAlCarrito()"
+          >
+            Agregar otro al carrito
+          </button></ng-template
+        >
       </div>
     </div>
   </div>

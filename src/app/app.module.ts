@@ -21,6 +21,8 @@ import { VerComponent } from './components/pages/ver/ver.component';
 import { ColeccionComponent } from './components/pages/coleccion/coleccion.component';
 import { MostrarCarruselComponent } from './components/mostrar-carrusel/mostrar-carrusel.component';
 import { CheckoutComponent } from './components/pages/checkout/checkout.component';
+import { PagoComponent } from './components/pages/pago/pago.component';
+import { TerminosYCondicionesComponent } from './components/pages/terminos-y-condiciones/terminos-y-condiciones.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { CheckoutComponent } from './components/pages/checkout/checkout.componen
     ColeccionComponent,
     MostrarCarruselComponent,
     CheckoutComponent,
+    PagoComponent,
+    TerminosYCondicionesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

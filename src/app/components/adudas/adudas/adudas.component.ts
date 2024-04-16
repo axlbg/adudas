@@ -33,6 +33,7 @@ export class AdudasComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
+      this.limpiarFiltros();
       if (params['filter'] == 'oportunidades') {
         this.filtros.push('40% OFF');
       } else if (params['filter'] == 'novedades') {
