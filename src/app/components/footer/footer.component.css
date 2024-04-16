@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 640px) {
   .contain {
-    padding: 0 15em;
+    padding: 2em;
     width: 100%;
     margin: auto;
     display: flex;
@@ -90,10 +90,20 @@
   }
 
   .columna {
+    margin: auto;
     display: flex;
     flex-flow: column;
     align-items: self-start;
     justify-content: left;
+    width: 100%;
+  }
+
+  .columna::after {
+    content: "";
+    height: 0.1px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    display: block;
   }
 
   .rowbox {
@@ -101,5 +111,9 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
+  }
+
+  .item {
+    display: none;
   }
 }

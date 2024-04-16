@@ -2,9 +2,11 @@
   display: flex;
   flex-flow: row;
   align-items: flex-start;
-  padding: 3.6em;
+  padding: 3.6em 0;
   background-color: rgb(240, 240, 240);
   background-color: white;
+  width: 94%;
+  margin: auto;
 }
 
 .columna1 {
@@ -103,6 +105,19 @@
   padding-top: 3em;
 }
 
-.maspad {
-  padding: 0 5em;
+@media screen and (max-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  .img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .derecha {
+    padding: 1em;
+    width: 300px;
+  }
 }

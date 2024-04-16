@@ -39,7 +39,6 @@
   .item {
     width: 320px;
     height: 300px;
-    object-fit: contain;
   }
 
   .img {

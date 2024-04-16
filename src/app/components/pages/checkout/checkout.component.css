@@ -3,8 +3,11 @@
   flex-flow: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 2em 4.6em;
+  padding: 2em 0;
   gap: 25px;
+
+  width: 94%;
+  margin: auto;
 }
 
 .izquierda {
@@ -53,7 +56,6 @@
   background-color: rgb(245, 245, 245);
   width: 450px;
   height: 370px;
-  border-right: 15px solid white;
   padding: 2em;
 }
 
@@ -90,4 +92,22 @@
 
 .derecha .h4 {
   font-weight: 500;
+}
+
+@media screen and (max-width: 640px) {
+  .checkout {
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .izquierda {
+    width: 100%;
+  }
+  .izquierda .h3 {
+    font-size: small;
+  }
+
+  .derecha {
+    width: 100%;
+  }
 }
