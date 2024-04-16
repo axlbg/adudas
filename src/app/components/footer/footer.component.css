@@ -115,5 +115,6 @@
 
   .item {
     display: none;
+    padding: 0.3em;
   }
 }
