@@ -38,7 +38,20 @@
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5em;
+  padding: 0;
+  width: 90%;
+  margin: auto;
+}
+
+.sup .subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cross {
+  display: none;
 }
 
 .sup .clickeable {
@@ -158,5 +171,11 @@
     transition: 0.5 ease;
     justify-content: flex-end;
     transform: translateX(+450px);
+
+    padding: 1em;
+    overflow: scroll;
+  }
+  .cross {
+    display: block;
   }
 }

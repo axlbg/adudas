@@ -2,20 +2,16 @@
   <div class="header__sup sup">
     <ul class="ul">
       <li class="li" title="Ayuda">
-        <a routerLink="/devoluciones" (click)="clickCerrarMenu()" class="a4"
-          >Ayuda</a
-        >
+        <a routerLink="/devoluciones" class="a4">Ayuda</a>
       </li>
       <li class="li" title="Suscribirse">
-        <a routerLink="/suscribirse" (click)="clickCerrarMenu()" class="a4"
-          >Suscribirse</a
-        >
+        <a routerLink="/suscribirse" class="a4">Suscribirse</a>
       </li>
     </ul>
   </div>
   <div class="header__med med">
     <div class="logo">
-      <a routerLink="/" (click)="clickCerrarMenu()" class="a"
+      <a routerLink="/" class="a"
         ><img
           src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
           alt=""
@@ -33,60 +29,32 @@
         >
           <path
             d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
-          /></svg
-      ></a>
+          />
+        </svg>
+      </a>
     </div>
 
     <ul class="ul">
       <li class="li">
-        <a
-          routerLink="/adudas/"
-          (click)="clickCerrarMenu()"
-          class="a nav"
-          title="Destacados"
-          >Destacados</a
-        >
+        <a routerLink="/adudas/" class="a nav" title="Destacados">Destacados</a>
       </li>
       <li class="li">
-        <a
-          routerLink="/adudas/hombre"
-          (click)="clickCerrarMenu()"
-          class="a nav"
-          title="Hombre"
-          >Hombre</a
-        >
+        <a routerLink="/adudas/hombre" class="a nav" title="Hombre">Hombre</a>
       </li>
       <li class="li">
-        <a
-          routerLink="/adudas/mujer"
-          (click)="clickCerrarMenu()"
-          class="a nav"
-          title="Mujer"
-          >Mujer</a
-        >
+        <a routerLink="/adudas/mujer" class="a nav" title="Mujer">Mujer</a>
       </li>
       <li class="li">
-        <a
-          routerLink="/adudas/niño"
-          (click)="clickCerrarMenu()"
-          class="a nav"
-          title="Niño/a"
-          >Niño/a</a
-        >
+        <a routerLink="/adudas/niño" class="a nav" title="Niño/a">Niño/a</a>
       </li>
       <li class="li">
-        <a
-          routerLink="/adudas/mochila"
-          (click)="clickCerrarMenu()"
-          class="a nav"
-          title="Accesorios"
+        <a routerLink="/adudas/mochila" class="a nav" title="Accesorios"
           >Accesorios</a
         >
       </li>
       <li class="li">
         <a
           routerLink="/adudas/oportunidades"
-          (click)="clickCerrarMenu()"
           class="a nav"
           title="Oportunidades"
           >Oportunidades</a
@@ -94,7 +62,7 @@
       </li>
     </ul>
 
-    <div class="carrito" routerLink="/checkout" (click)="clickCerrarMenu()">
+    <div class="carrito" routerLink="/checkout">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="23"
@@ -114,7 +82,7 @@
   </div>
 </header>
 <header class="header_mobile">
-  <a class="a" (click)="clickOpenMenu()">
+  <a class="a">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="40"
@@ -126,21 +94,18 @@
       <path
         fill-rule="evenodd"
         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-      /></svg
-  ></a>
+      />
+    </svg>
+  </a>
 
-  <a routerLink="/" (click)="clickCerrarMenu()" class="a"
+  <a routerLink="/" class="a"
     ><img
       src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
       alt=""
       class="img_logo"
       loading="lazy"
   /></a>
-  <div
-    class="carrito_mobile"
-    routerLink="/checkout"
-    (click)="clickCerrarMenu()"
-  >
+  <div class="carrito_mobile" routerLink="/checkout">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="23"

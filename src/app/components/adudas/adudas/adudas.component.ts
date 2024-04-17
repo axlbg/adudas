@@ -115,5 +115,12 @@ export class AdudasComponent implements OnInit {
 
   clickAbrirFiltrar() {
     document.getElementById('menuFiltro')!.style.transform = 'translateX(0)';
+    document.getElementById('menuFiltro')!.style.boxShadow =
+      '0 0 15px rgb(0, 0, 0, 0.5)';
+  }
+  clickCerrarMenu() {
+    document.getElementById('menuFiltro')!.style.transform =
+      'translateX(+450px)';
+    document.getElementById('menuFiltro')!.style.boxShadow = '0 0 0';
   }
 }
