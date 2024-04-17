@@ -112,4 +112,8 @@ export class AdudasComponent implements OnInit {
   private capitalizeFirstLetter(str: string) {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
+
+  clickAbrirFiltrar() {
+    document.getElementById('menuFiltro')!.style.transform = 'translateX(0)';
+  }
 }

@@ -89,6 +89,15 @@ a:hover {
 }
 
 @media screen and (max-width: 640px) {
+  .header {
+    flex-flow: column-reverse;
+    width: 450px;
+    height: 100%;
+    transition: 0.5 ease;
+    justify-content: flex-end;
+    transform: translateX(-450px);
+  }
+
   .cross {
     display: block;
     display: flex;
@@ -101,16 +110,6 @@ a:hover {
     justify-content: space-between;
     width: 100%;
     padding: 20px 50px;
-  }
-
-  .header {
-    flex-flow: column-reverse;
-    width: 450px;
-    height: 100%;
-    transition: 0.5 ease;
-    justify-content: flex-end;
-    transform: translateX(-450px);
-    /*box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);*/
   }
 
   .sup {
