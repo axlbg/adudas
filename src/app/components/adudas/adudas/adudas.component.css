@@ -18,7 +18,7 @@
 }
 
 .titulo_filtrar {
-  display: flex;
+  display: none;
 }
 
 .contenedor {
@@ -177,5 +177,8 @@
   }
   .cross {
     display: block;
+  }
+  .titulo_filtrar {
+    display: flex;
   }
 }
