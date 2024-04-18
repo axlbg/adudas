@@ -91,7 +91,7 @@ a:hover {
 @media screen and (max-width: 640px) {
   .header {
     flex-flow: column-reverse;
-    width: 450px;
+    width: 70%;
     height: 100%;
     transition: 0.5 ease;
     justify-content: flex-end;
